@@ -8,7 +8,8 @@ data class Emoji(
     val tags: List<String>,
     val unicodeVersion: UnicodeVersion,
     val iosVersion: Float,
-    val supportsFitzpatrick: Boolean = false,
+    val fitzpatrickIndex: List<Int>,
+    val vs16Index: List<Int>,
 )
 
 sealed class UnicodeVersion {

@@ -14,12 +14,12 @@ import kotlinx.serialization.json.Json
 import kotlin.io.path.Path
 
 object EmojiListGenerator {
-    private val format = Json { isLenient = true }
     private const val JSON_FILE_NAME = "emoji.json"
     private const val PACKAGE_NAME = "kemoji"
     private const val CLASS_NAME = "Emoji"
     private const val PROPERTY_NAME = "emojis"
     private const val OBJECT_NAME = "EmojiList"
+    private val format = Json { isLenient = true }
 
     fun fileLoader(): List<Emoji> {
         val json = this::class.java.getResource(JSON_FILE_NAME).readText(Charsets.UTF_8).trimIndent()
@@ -49,15 +49,18 @@ object EmojiListGenerator {
     }
 
     private fun createFunSpecs(listEmojiTypeName: ParameterizedTypeName): List<FunSpec> {
-        val emojiListList = fileLoader().chunked(500) //for method size limit
-        val functions = emojiListList.mapIndexed { index, emojiList ->
+        val emojiList = fileLoader()
+        val emojiTestList = EmojiTestReader.loadEmojiTest()
+        val emojiGroupList = EmojiTestReader.groupByRawUnicode(emojiTestList)
+
+        val functions = emojiList.chunked(500).mapIndexed { index, chunkedEmojiList ->
             FunSpec.builder("function${index + 1}")
                 .returns(listEmojiTypeName)
                 .addModifiers(KModifier.PRIVATE)
                 .addCode(
                     buildCodeBlock {
                         add("return ")
-                        listToCodeBlock(emojiList)
+                        listToCodeBlock(chunkedEmojiList, emojiGroupList)
                     }
                 ).build()
         }
@@ -83,10 +86,27 @@ object EmojiListGenerator {
             .build()
     }
 
-    private fun CodeBlock.Builder.listToCodeBlock(emojiList: List<Emoji>) {
+    private fun CodeBlock.Builder.listToCodeBlock(
+        emojiList: List<Emoji>,
+        emojiGroupList: Map<String, List<EmojiTestReader.EmojiTest>>
+    ) {
         add("listOf(\n")
         indent()
         emojiList.forEach { emoji ->
+            val group = emojiGroupList[emoji.emoji]
+            val fitzpatrickIndex = if (group != null) {
+                group[1].emoji.indexesOf(fitzpatrickRegex)
+            } else {
+                emptyList()
+            }
+
+            val vs16Index = if (emoji.emoji.contains(VARIATION_SELECTOR_16)) {
+                emoji.emoji.indexesOf(VARIATION_SELECTOR_16.toRegex())
+            } else {
+                emptyList()
+            }
+
+
             add(
                 """|Emoji(
                    |    emoji = %S,
@@ -96,17 +116,19 @@ object EmojiListGenerator {
                    |    tags = %L,
                    |    unicodeVersion = %L,
                    |    iosVersion = %Lf,
-                   |    supportsFitzpatrick = %L,
+                   |    fitzpatrickIndex = %L,
+                   |    vs16Index = %L,
                    |),
                    |""".trimMargin(),
-                emoji.emoji.replace(Char(65039).toString(), ""),
+                emoji.emoji.replace(VARIATION_SELECTOR_16, ""), //TODO remove this line after emoji trie support vs16Index
                 emoji.description,
                 emoji.category,
                 emoji.aliases.toPoetString(),
                 emoji.tags.toPoetString(),
                 emoji.unicodeVersion.toPoetString(),
                 emoji.iosVersion,
-                emoji.supportsFitzpatrick,
+                fitzpatrickIndex.toPoetString(),
+                vs16Index.toPoetString(),
             )
         }
         unindent()
@@ -115,6 +137,11 @@ object EmojiListGenerator {
 
 }
 
+fun String.indexesOf(regex: Regex): List<Int> = regex
+    .findAll(this)
+    .map { it.range.first }
+    .toList()
+
 private fun List<String>.toPoetString(): String = if (this.isEmpty()) {
     "emptyList()"
 } else {
@@ -122,6 +149,12 @@ private fun List<String>.toPoetString(): String = if (this.isEmpty()) {
     "listOf($listLiteral)"
 }
 
-
+@JvmName("toPoetStringInt")
+private fun List<Int>.toPoetString(): String = if (this.isEmpty()) {
+    "emptyList()"
+} else {
+    val listLiteral = this.joinToString { it.toString() }
+    "listOf($listLiteral)"
+}
 
 

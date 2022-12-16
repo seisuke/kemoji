@@ -26,7 +26,7 @@ class EmojiTest {
         private val comment_regexp = Regex("^[#\\s]")
         private val skip_status_regexp = Regex("(unqualified|component)")
 
-        fun getEmojiList(): List<Arguments> {
+        fun loadEmojiTest(): List<Arguments> {
             val stream = this::class.java.getResourceAsStream("/unicode-emoji-test.txt")
             val emojiList: MutableList<Arguments> = mutableListOf()
             stream.bufferedReader().forEachLine { line ->
@@ -59,6 +59,6 @@ class EmojiTest {
 
     companion object {
         @JvmStatic
-        fun emojis(): List<Arguments> = EmojiTestReader.getEmojiList()
+        fun emojis(): List<Arguments> = EmojiTestReader.loadEmojiTest()
     }
 }

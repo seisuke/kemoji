@@ -6,6 +6,9 @@ import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 
+val VARIATION_SELECTOR_16 = Char(65039).toString()
+val fitzpatrickRegex = Regex("[\uD83C\uDFFB-\uD83C\uDFFF]")
+
 @Serializable
 data class Emoji(
     val emoji: String,

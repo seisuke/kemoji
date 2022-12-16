@@ -17,8 +17,11 @@ class EmojiListGeneratorTest {
 
     @Test
     fun groupByUnicodeTest() {
-        val emojiTestList = EmojiTestReader.getEmojiList()
-        val group = EmojiTestReader.groupByRawUnicode(emojiTestList)
-        assertEquals(group["👋"]!!.size, 6)
+        val emojiTestList = EmojiTestReader.loadEmojiTest()
+        val groupList = EmojiTestReader.groupByRawUnicode(emojiTestList)
+        //assertEquals(group["🖐"]!!.size, 6) // 🖐 is unique
+
+        val group = groupList["🤚"]!!
+        assertEquals(group.size, 6)
     }
 }
