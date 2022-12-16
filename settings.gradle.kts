@@ -1,0 +1,2 @@
+include(":kemoji")
+include(":emojiListGenerator")
