@@ -3,7 +3,7 @@ package kemoji
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
-import kotlin.test.DefaultAsserter.assertTrue
+import kotlin.test.assertNotNull
 
 
 class EmojiTest {
@@ -11,14 +11,10 @@ class EmojiTest {
     @ParameterizedTest(name = "{0} {1}")
     @MethodSource("emojis")
     fun emojisTest(emoji: String, description: String) {
-        val rawUnicode = emoji.replace(Fitzpatrick.TYPE_1_2.unicode, "")
-            .replace(Fitzpatrick.TYPE_3.unicode, "")
-            .replace(Fitzpatrick.TYPE_4.unicode, "")
-            .replace(Fitzpatrick.TYPE_5.unicode, "")
-            .replace(Fitzpatrick.TYPE_6.unicode, "")
-            .replace(Char(65039).toString(), "")
-
-        assertTrue("Asserting for emoji: $emoji $description", EmojiManager.isEmoji(rawUnicode));
+        assertNotNull(
+            EmojiManager.getByUnicode(emoji),
+            "Asserting for emoji: $emoji $description"
+        )
     }
 
     private object EmojiTestReader {

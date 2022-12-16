@@ -2,12 +2,6 @@ package kemoji
 
 class EmojiParser {
 
-    private data class AliasCandidate(
-        val unicode: String,
-        val fitzpatrick: Fitzpatrick?,
-        val range: IntRange,
-    )
-
     data class UnicodeCandidate(
         val emoji: Emoji,
         val fitzpatrick: Fitzpatrick?,
@@ -69,7 +63,7 @@ class EmojiParser {
             return candidateList
         }
 
-        internal fun getNextUnicodeCandidate(chars: CharArray, start: Int): UnicodeCandidate? {
+        private fun getNextUnicodeCandidate(chars: CharArray, start: Int): UnicodeCandidate? {
             for (i in start until chars.size) {
                 val emojiEnd: Int = getEmojiEndPos(chars, i)
                 if (emojiEnd != -1) {
