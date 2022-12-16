@@ -1,0 +1,1 @@
+../../../../emojiListGenerator/src/test/resources/unicode-emoji-test.txt
