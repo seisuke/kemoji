@@ -17,12 +17,7 @@ class EmojiTest {
             .replace(Fitzpatrick.TYPE_5.unicode, "")
             .replace(Fitzpatrick.TYPE_6.unicode, "")
             .replace(Char(65039).toString(), "")
-        
-        // can't pass 160 tests
-        // 1FAF1 1F3FB 200D 1FAF2 1F3FC handshake with skin tone
-        // 1F469 1F3FB 200D 1F91D 200D 1F469 1F3FC women|men holding hands with skin tone
-        // 1F9D1 1F3FB 200D 2764 200D 1F48B 200D 1F9D1 1F3FC kiss: person, person with skin tone
-        // 1F9D1 1F3FB 200D 2764 FE0F 200D 1F9D1 1F3FC  couple with heart: person, person with skin tone
+
         assertTrue("Asserting for emoji: $emoji $description", EmojiManager.isEmoji(rawUnicode));
     }
 

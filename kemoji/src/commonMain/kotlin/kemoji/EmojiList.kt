@@ -2007,6 +2007,16 @@ public object EmojiList {
             supportsFitzpatrick = true,
         ),
         Emoji(
+            emoji = "🫱‍🫲",
+            description = "handshake",
+            category = "People & Body",
+            aliases = listOf("handshake"),
+            tags = listOf("deal"),
+            unicodeVersion = UnicodeVersion.Version(14.0f),
+            iosVersion = 15.4f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
             emoji = "🙏",
             description = "folded hands",
             category = "People & Body",
@@ -4837,6 +4847,16 @@ public object EmojiList {
             supportsFitzpatrick = true,
         ),
         Emoji(
+            emoji = "👩‍🤝‍👩",
+            description = "women holding hands",
+            category = "People & Body",
+            aliases = listOf("two_women_holding_hands"),
+            tags = listOf("couple", "date"),
+            unicodeVersion = UnicodeVersion.Version(12.1f),
+            iosVersion = 13.2f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
             emoji = "👫",
             description = "woman and man holding hands",
             category = "People & Body",
@@ -4844,6 +4864,16 @@ public object EmojiList {
             tags = listOf("date"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
+            emoji = "👩‍🤝‍👨",
+            description = "woman and man holding hands",
+            category = "People & Body",
+            aliases = listOf("couple"),
+            tags = listOf("couple", "date"),
+            unicodeVersion = UnicodeVersion.Version(12.1f),
+            iosVersion = 13.2f,
             supportsFitzpatrick = true,
         ),
         Emoji(
@@ -4857,6 +4887,16 @@ public object EmojiList {
             supportsFitzpatrick = true,
         ),
         Emoji(
+            emoji = "👨‍🤝‍👨",
+            description = "men holding hands",
+            category = "People & Body",
+            aliases = listOf("two_men_holding_hands"),
+            tags = listOf("couple", "date"),
+            unicodeVersion = UnicodeVersion.Version(12.1f),
+            iosVersion = 13.2f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
             emoji = "💏",
             description = "kiss",
             category = "People & Body",
@@ -4864,6 +4904,16 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
+            emoji = "🧑‍❤‍💋‍🧑",
+            description = "kiss: person, person",
+            category = "People & Body",
+            aliases = listOf("couplekiss_person_person"),
+            tags = emptyList(),
+            unicodeVersion = UnicodeVersion.Version(11.0f),
+            iosVersion = 12.1f,
             supportsFitzpatrick = true,
         ),
         Emoji(
@@ -4917,6 +4967,16 @@ public object EmojiList {
             supportsFitzpatrick = true,
         ),
         Emoji(
+            emoji = "🧑‍❤‍🧑",
+            description = "couple with heart: person, person",
+            category = "People & Body",
+            aliases = listOf("couple_with_heart_person_person"),
+            tags = emptyList(),
+            unicodeVersion = UnicodeVersion.Version(6.0f),
+            iosVersion = 8.3f,
+            supportsFitzpatrick = true,
+        ),
+        Emoji(
             emoji = "👨‍❤‍👨",
             description = "couple with heart: man, man",
             category = "People & Body",
@@ -4946,6 +5006,9 @@ public object EmojiList {
             iosVersion = 6.0f,
             supportsFitzpatrick = false,
         ),
+    )
+
+    private fun function2(): List<Emoji> = listOf(
         Emoji(
             emoji = "👨‍👩‍👦",
             description = "family: man, woman, boy",
@@ -5006,9 +5069,6 @@ public object EmojiList {
             iosVersion = 8.3f,
             supportsFitzpatrick = false,
         ),
-    )
-
-    private fun function2(): List<Emoji> = listOf(
         Emoji(
             emoji = "👨‍👨‍👧",
             description = "family: man, man, girl",
@@ -9949,6 +10009,9 @@ public object EmojiList {
             iosVersion = 6.0f,
             supportsFitzpatrick = false,
         ),
+    )
+
+    private fun function3(): List<Emoji> = listOf(
         Emoji(
             emoji = "⛈",
             description = "cloud with lightning and rain",
@@ -10009,9 +10072,6 @@ public object EmojiList {
             iosVersion = 9.1f,
             supportsFitzpatrick = false,
         ),
-    )
-
-    private fun function3(): List<Emoji> = listOf(
         Emoji(
             emoji = "🌩",
             description = "cloud with lightning",
@@ -14952,6 +15012,9 @@ public object EmojiList {
             iosVersion = 6.0f,
             supportsFitzpatrick = false,
         ),
+    )
+
+    private fun function4(): List<Emoji> = listOf(
         Emoji(
             emoji = "#⃣",
             description = "keycap: #",
@@ -15012,9 +15075,6 @@ public object EmojiList {
             iosVersion = 6.0f,
             supportsFitzpatrick = false,
         ),
-    )
-
-    private fun function4(): List<Emoji> = listOf(
         Emoji(
             emoji = "4⃣",
             description = "keycap: 4",
