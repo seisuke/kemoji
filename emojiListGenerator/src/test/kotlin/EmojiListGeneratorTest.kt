@@ -6,16 +6,14 @@ class EmojiListGeneratorTest {
     @Test
     fun emojiListTest() {
         val emojiList = EmojiListGenerator.fileLoader()
-        assertEquals(emojiList.size, 1849)
+        assertEquals(emojiList.size, 1855)
     }
 
-    /*
     @Test
     fun generateEmojiList() {
         //TODO move to gradle
         EmojiListGenerator.generateEmojiLists()
     }
-     */
 
     @Test
     fun groupByUnicodeTest() {

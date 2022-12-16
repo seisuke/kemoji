@@ -2633,6 +2633,20 @@
   , "unicode_version": "9.0"
   , "ios_version": "10.2"
   , "skin_tones": true
+  },
+  {
+    "emoji": "🫱‍🫲"
+  , "description": "handshake"
+  , "category": "People & Body"
+  , "aliases": [
+    "handshake"
+  ]
+  , "tags": [
+    "deal"
+  ]
+  , "unicode_version": "14.0"
+  , "ios_version": "15.4"
+  , "skin_tones": true
   }
 , {
     "emoji": "🙏"
@@ -6432,6 +6446,21 @@
   , "unicode_version": "6.0"
   , "ios_version": "6.0"
   , "skin_tones": true
+  },
+  {
+    "emoji": "👩‍🤝‍👩"
+  , "description": "women holding hands"
+  , "category": "People & Body"
+  , "aliases": [
+    "two_women_holding_hands"
+  ]
+  , "tags": [
+    "couple"
+  , "date"
+  ]
+  , "unicode_version": "12.1"
+  , "ios_version": "13.2"
+  , "skin_tones": true
   }
 , {
     "emoji": "👫"
@@ -6445,6 +6474,21 @@
     ]
   , "unicode_version": "6.0"
   , "ios_version": "6.0"
+  , "skin_tones": true
+  }
+, {
+    "emoji": "👩‍🤝‍👨"
+  , "description": "woman and man holding hands"
+  , "category": "People & Body"
+  , "aliases": [
+    "couple"
+  ]
+  , "tags": [
+    "couple"
+  , "date"
+  ]
+  , "unicode_version": "12.1"
+  , "ios_version": "13.2"
   , "skin_tones": true
   }
 , {
@@ -6463,6 +6507,21 @@
   , "skin_tones": true
   }
 , {
+    "emoji": "👨‍🤝‍👨"
+  , "description": "men holding hands"
+  , "category": "People & Body"
+  , "aliases": [
+    "two_men_holding_hands"
+  ]
+  , "tags": [
+    "couple"
+  , "date"
+  ]
+  , "unicode_version": "12.1"
+  , "ios_version": "13.2"
+  , "skin_tones": true
+  }
+, {
     "emoji": "💏"
   , "description": "kiss"
   , "category": "People & Body"
@@ -6475,6 +6534,19 @@
   , "ios_version": "6.0"
   , "skin_tones": true
   }
+, {
+    "emoji": "🧑‍❤️‍💋‍🧑"
+  , "description": "kiss: person, person"
+  , "category": "People & Body"
+  , "aliases": [
+      "couplekiss_person_person"
+    ]
+  , "tags": [
+    ]
+  , "unicode_version": "11.0"
+  , "ios_version": "12.1"
+  , "skin_tones": true
+}
 , {
     "emoji": "👩‍❤️‍💋‍👨"
   , "description": "kiss: woman, man"
@@ -6540,6 +6612,19 @@
   , "ios_version": "12.1"
   , "skin_tones": true
   }
+, {
+    "emoji": "🧑‍❤️‍🧑"
+  , "description": "couple with heart: person, person"
+  , "category": "People & Body"
+  , "aliases": [
+      "couple_with_heart_person_person"
+    ]
+  , "tags": [
+    ]
+  , "unicode_version": "11.0"
+  , "ios_version": "14.5"
+  , "skin_tones": true
+}
 , {
     "emoji": "👨‍❤️‍👨"
   , "description": "couple with heart: man, man"
