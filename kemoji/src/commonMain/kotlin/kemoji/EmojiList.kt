@@ -14,7 +14,8 @@ public object EmojiList {
             tags = listOf("smile", "happy"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😃",
@@ -24,7 +25,8 @@ public object EmojiList {
             tags = listOf("happy", "joy", "haha"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😄",
@@ -34,7 +36,8 @@ public object EmojiList {
             tags = listOf("happy", "joy", "laugh", "pleased"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😁",
@@ -44,7 +47,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😆",
@@ -54,7 +58,8 @@ public object EmojiList {
             tags = listOf("happy", "haha"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😅",
@@ -64,7 +69,8 @@ public object EmojiList {
             tags = listOf("hot"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤣",
@@ -74,7 +80,8 @@ public object EmojiList {
             tags = listOf("lol", "laughing"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😂",
@@ -84,7 +91,8 @@ public object EmojiList {
             tags = listOf("tears"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙂",
@@ -94,7 +102,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙃",
@@ -104,7 +113,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫠",
@@ -114,7 +124,8 @@ public object EmojiList {
             tags = listOf("sarcasm", "dread"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😉",
@@ -124,7 +135,8 @@ public object EmojiList {
             tags = listOf("flirt"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😊",
@@ -134,7 +146,8 @@ public object EmojiList {
             tags = listOf("proud"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😇",
@@ -144,7 +157,8 @@ public object EmojiList {
             tags = listOf("angel"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥰",
@@ -154,7 +168,8 @@ public object EmojiList {
             tags = listOf("love"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😍",
@@ -164,7 +179,8 @@ public object EmojiList {
             tags = listOf("love", "crush"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤩",
@@ -174,7 +190,8 @@ public object EmojiList {
             tags = listOf("eyes"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😘",
@@ -184,7 +201,8 @@ public object EmojiList {
             tags = listOf("flirt"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😗",
@@ -194,7 +212,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☺",
@@ -204,7 +223,8 @@ public object EmojiList {
             tags = listOf("blush", "pleased"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "😚",
@@ -214,7 +234,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😙",
@@ -224,7 +245,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥲",
@@ -234,7 +256,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😋",
@@ -244,7 +267,8 @@ public object EmojiList {
             tags = listOf("tongue", "lick"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😛",
@@ -254,7 +278,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😜",
@@ -264,7 +289,8 @@ public object EmojiList {
             tags = listOf("prank", "silly"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤪",
@@ -274,7 +300,8 @@ public object EmojiList {
             tags = listOf("goofy", "wacky"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😝",
@@ -284,7 +311,8 @@ public object EmojiList {
             tags = listOf("prank"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤑",
@@ -294,7 +322,8 @@ public object EmojiList {
             tags = listOf("rich"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤗",
@@ -304,7 +333,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤭",
@@ -314,7 +344,8 @@ public object EmojiList {
             tags = listOf("quiet", "whoops"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫢",
@@ -324,7 +355,8 @@ public object EmojiList {
             tags = listOf("gasp", "shock"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫣",
@@ -334,7 +366,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤫",
@@ -344,7 +377,8 @@ public object EmojiList {
             tags = listOf("silence", "quiet"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤔",
@@ -354,7 +388,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫡",
@@ -364,7 +399,8 @@ public object EmojiList {
             tags = listOf("respect"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤐",
@@ -374,7 +410,8 @@ public object EmojiList {
             tags = listOf("silence", "hush"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤨",
@@ -384,7 +421,8 @@ public object EmojiList {
             tags = listOf("suspicious"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😐",
@@ -394,7 +432,8 @@ public object EmojiList {
             tags = listOf("meh"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😑",
@@ -404,7 +443,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😶",
@@ -414,7 +454,8 @@ public object EmojiList {
             tags = listOf("mute", "silence"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫥",
@@ -424,7 +465,8 @@ public object EmojiList {
             tags = listOf("invisible"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😶‍🌫",
@@ -434,7 +476,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(5),
         ),
         Emoji(
             emoji = "😏",
@@ -444,7 +487,8 @@ public object EmojiList {
             tags = listOf("smug"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😒",
@@ -454,7 +498,8 @@ public object EmojiList {
             tags = listOf("meh"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙄",
@@ -464,7 +509,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😬",
@@ -474,7 +520,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😮‍💨",
@@ -484,7 +531,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤥",
@@ -494,7 +542,8 @@ public object EmojiList {
             tags = listOf("liar"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😌",
@@ -504,7 +553,8 @@ public object EmojiList {
             tags = listOf("whew"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😔",
@@ -514,7 +564,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😪",
@@ -524,7 +575,8 @@ public object EmojiList {
             tags = listOf("tired"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤤",
@@ -534,7 +586,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😴",
@@ -544,7 +597,8 @@ public object EmojiList {
             tags = listOf("zzz"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😷",
@@ -554,7 +608,8 @@ public object EmojiList {
             tags = listOf("sick", "ill"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤒",
@@ -564,7 +619,8 @@ public object EmojiList {
             tags = listOf("sick"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤕",
@@ -574,7 +630,8 @@ public object EmojiList {
             tags = listOf("hurt"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤢",
@@ -584,7 +641,8 @@ public object EmojiList {
             tags = listOf("sick", "barf", "disgusted"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤮",
@@ -594,7 +652,8 @@ public object EmojiList {
             tags = listOf("barf", "sick"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤧",
@@ -604,7 +663,8 @@ public object EmojiList {
             tags = listOf("achoo", "sick"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥵",
@@ -614,7 +674,8 @@ public object EmojiList {
             tags = listOf("heat", "sweating"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥶",
@@ -624,7 +685,8 @@ public object EmojiList {
             tags = listOf("freezing", "ice"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥴",
@@ -634,7 +696,8 @@ public object EmojiList {
             tags = listOf("groggy"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😵",
@@ -644,7 +707,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😵‍💫",
@@ -654,7 +718,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤯",
@@ -664,7 +729,8 @@ public object EmojiList {
             tags = listOf("mind", "blown"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤠",
@@ -674,7 +740,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥳",
@@ -684,7 +751,8 @@ public object EmojiList {
             tags = listOf("celebration", "birthday"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥸",
@@ -694,7 +762,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😎",
@@ -704,7 +773,8 @@ public object EmojiList {
             tags = listOf("cool"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤓",
@@ -714,7 +784,8 @@ public object EmojiList {
             tags = listOf("geek", "glasses"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧐",
@@ -724,7 +795,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😕",
@@ -734,7 +806,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫤",
@@ -744,7 +817,8 @@ public object EmojiList {
             tags = listOf("confused"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😟",
@@ -754,7 +828,8 @@ public object EmojiList {
             tags = listOf("nervous"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙁",
@@ -764,7 +839,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☹",
@@ -774,7 +850,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "😮",
@@ -784,7 +861,8 @@ public object EmojiList {
             tags = listOf("surprise", "impressed", "wow"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😯",
@@ -794,7 +872,8 @@ public object EmojiList {
             tags = listOf("silence", "speechless"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😲",
@@ -804,7 +883,8 @@ public object EmojiList {
             tags = listOf("amazed", "gasp"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😳",
@@ -814,7 +894,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥺",
@@ -824,7 +905,8 @@ public object EmojiList {
             tags = listOf("puppy", "eyes"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥹",
@@ -834,7 +916,8 @@ public object EmojiList {
             tags = listOf("tears", "gratitude"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😦",
@@ -844,7 +927,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😧",
@@ -854,7 +938,8 @@ public object EmojiList {
             tags = listOf("stunned"),
             unicodeVersion = UnicodeVersion.Version(6.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😨",
@@ -864,7 +949,8 @@ public object EmojiList {
             tags = listOf("scared", "shocked", "oops"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😰",
@@ -874,7 +960,8 @@ public object EmojiList {
             tags = listOf("nervous"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😥",
@@ -884,7 +971,8 @@ public object EmojiList {
             tags = listOf("phew", "sweat", "nervous"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😢",
@@ -894,7 +982,8 @@ public object EmojiList {
             tags = listOf("sad", "tear"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😭",
@@ -904,7 +993,8 @@ public object EmojiList {
             tags = listOf("sad", "cry", "bawling"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😱",
@@ -914,7 +1004,8 @@ public object EmojiList {
             tags = listOf("horror", "shocked"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😖",
@@ -924,7 +1015,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😣",
@@ -934,7 +1026,8 @@ public object EmojiList {
             tags = listOf("struggling"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😞",
@@ -944,7 +1037,8 @@ public object EmojiList {
             tags = listOf("sad"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😓",
@@ -954,7 +1048,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😩",
@@ -964,7 +1059,8 @@ public object EmojiList {
             tags = listOf("tired"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😫",
@@ -974,7 +1070,8 @@ public object EmojiList {
             tags = listOf("upset", "whine"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥱",
@@ -984,7 +1081,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😤",
@@ -994,7 +1092,8 @@ public object EmojiList {
             tags = listOf("smug"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😡",
@@ -1004,7 +1103,8 @@ public object EmojiList {
             tags = listOf("angry"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😠",
@@ -1014,7 +1114,8 @@ public object EmojiList {
             tags = listOf("mad", "annoyed"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤬",
@@ -1024,7 +1125,8 @@ public object EmojiList {
             tags = listOf("foul"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😈",
@@ -1034,7 +1136,8 @@ public object EmojiList {
             tags = listOf("devil", "evil", "horns"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👿",
@@ -1044,7 +1147,8 @@ public object EmojiList {
             tags = listOf("angry", "devil", "evil", "horns"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💀",
@@ -1054,7 +1158,8 @@ public object EmojiList {
             tags = listOf("dead", "danger", "poison"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☠",
@@ -1064,7 +1169,8 @@ public object EmojiList {
             tags = listOf("danger", "pirate"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "💩",
@@ -1074,7 +1180,8 @@ public object EmojiList {
             tags = listOf("crap"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤡",
@@ -1084,7 +1191,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👹",
@@ -1094,7 +1202,8 @@ public object EmojiList {
             tags = listOf("monster"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👺",
@@ -1104,7 +1213,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👻",
@@ -1114,7 +1224,8 @@ public object EmojiList {
             tags = listOf("halloween"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👽",
@@ -1124,7 +1235,8 @@ public object EmojiList {
             tags = listOf("ufo"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👾",
@@ -1134,7 +1246,8 @@ public object EmojiList {
             tags = listOf("game", "retro"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤖",
@@ -1144,7 +1257,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😺",
@@ -1154,7 +1268,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😸",
@@ -1164,7 +1279,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😹",
@@ -1174,7 +1290,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😻",
@@ -1184,7 +1301,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😼",
@@ -1194,7 +1312,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😽",
@@ -1204,7 +1323,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙀",
@@ -1214,7 +1334,8 @@ public object EmojiList {
             tags = listOf("horror"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😿",
@@ -1224,7 +1345,8 @@ public object EmojiList {
             tags = listOf("sad", "tear"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "😾",
@@ -1234,7 +1356,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙈",
@@ -1244,7 +1367,8 @@ public object EmojiList {
             tags = listOf("monkey", "blind", "ignore"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙉",
@@ -1254,7 +1378,8 @@ public object EmojiList {
             tags = listOf("monkey", "deaf"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙊",
@@ -1264,7 +1389,8 @@ public object EmojiList {
             tags = listOf("monkey", "mute", "hush"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💋",
@@ -1274,7 +1400,8 @@ public object EmojiList {
             tags = listOf("lipstick"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💌",
@@ -1284,7 +1411,8 @@ public object EmojiList {
             tags = listOf("email", "envelope"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💘",
@@ -1294,7 +1422,8 @@ public object EmojiList {
             tags = listOf("love", "heart"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💝",
@@ -1304,7 +1433,8 @@ public object EmojiList {
             tags = listOf("chocolates"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💖",
@@ -1314,7 +1444,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💗",
@@ -1324,7 +1455,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💓",
@@ -1334,7 +1466,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💞",
@@ -1344,7 +1477,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💕",
@@ -1354,7 +1488,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💟",
@@ -1364,7 +1499,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❣",
@@ -1374,7 +1510,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "💔",
@@ -1384,7 +1521,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❤‍🔥",
@@ -1394,7 +1532,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "❤‍🩹",
@@ -1404,7 +1543,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "❤",
@@ -1414,7 +1554,8 @@ public object EmojiList {
             tags = listOf("love"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🧡",
@@ -1424,7 +1565,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💛",
@@ -1434,7 +1576,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💚",
@@ -1444,7 +1587,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💙",
@@ -1454,7 +1598,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💜",
@@ -1464,7 +1609,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤎",
@@ -1474,7 +1620,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖤",
@@ -1484,7 +1631,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤍",
@@ -1494,7 +1642,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💯",
@@ -1504,7 +1653,8 @@ public object EmojiList {
             tags = listOf("score", "perfect"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💢",
@@ -1514,7 +1664,8 @@ public object EmojiList {
             tags = listOf("angry"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💥",
@@ -1524,7 +1675,8 @@ public object EmojiList {
             tags = listOf("explode"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💫",
@@ -1534,7 +1686,8 @@ public object EmojiList {
             tags = listOf("star"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💦",
@@ -1544,7 +1697,8 @@ public object EmojiList {
             tags = listOf("water", "workout"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💨",
@@ -1554,7 +1708,8 @@ public object EmojiList {
             tags = listOf("wind", "blow", "fast"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕳",
@@ -1564,7 +1719,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "💣",
@@ -1574,7 +1730,8 @@ public object EmojiList {
             tags = listOf("boom"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💬",
@@ -1584,7 +1741,8 @@ public object EmojiList {
             tags = listOf("comment"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👁‍🗨",
@@ -1594,7 +1752,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 6),
         ),
         Emoji(
             emoji = "🗨",
@@ -1604,7 +1763,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗯",
@@ -1614,7 +1774,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "💭",
@@ -1624,7 +1785,8 @@ public object EmojiList {
             tags = listOf("thinking"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💤",
@@ -1634,7 +1796,8 @@ public object EmojiList {
             tags = listOf("sleeping"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👋",
@@ -1644,7 +1807,8 @@ public object EmojiList {
             tags = listOf("goodbye"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤚",
@@ -1654,7 +1818,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖐",
@@ -1664,7 +1829,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "✋",
@@ -1674,7 +1840,8 @@ public object EmojiList {
             tags = listOf("highfive", "stop"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(1),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖖",
@@ -1684,7 +1851,8 @@ public object EmojiList {
             tags = listOf("prosper", "spock"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫱",
@@ -1694,7 +1862,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫲",
@@ -1704,7 +1873,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫳",
@@ -1714,7 +1884,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫴",
@@ -1724,7 +1895,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👌",
@@ -1734,7 +1906,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤌",
@@ -1744,7 +1917,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤏",
@@ -1754,7 +1928,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✌",
@@ -1764,7 +1939,8 @@ public object EmojiList {
             tags = listOf("victory", "peace"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🤞",
@@ -1774,7 +1950,8 @@ public object EmojiList {
             tags = listOf("luck", "hopeful"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫰",
@@ -1784,7 +1961,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤟",
@@ -1794,7 +1972,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤘",
@@ -1804,7 +1983,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤙",
@@ -1814,7 +1994,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👈",
@@ -1824,7 +2005,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👉",
@@ -1834,7 +2016,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👆",
@@ -1844,7 +2027,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖕",
@@ -1854,7 +2038,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👇",
@@ -1864,7 +2049,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☝",
@@ -1874,7 +2060,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🫵",
@@ -1884,7 +2071,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👍",
@@ -1894,7 +2082,8 @@ public object EmojiList {
             tags = listOf("approve", "ok"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👎",
@@ -1904,7 +2093,8 @@ public object EmojiList {
             tags = listOf("disapprove", "bury"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✊",
@@ -1914,7 +2104,8 @@ public object EmojiList {
             tags = listOf("power"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(1),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👊",
@@ -1924,7 +2115,8 @@ public object EmojiList {
             tags = listOf("attack"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤛",
@@ -1934,7 +2126,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤜",
@@ -1944,7 +2137,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👏",
@@ -1954,7 +2148,8 @@ public object EmojiList {
             tags = listOf("praise", "applause"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙌",
@@ -1964,7 +2159,8 @@ public object EmojiList {
             tags = listOf("hooray"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫶",
@@ -1974,7 +2170,8 @@ public object EmojiList {
             tags = listOf("love"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👐",
@@ -1984,7 +2181,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤲",
@@ -1994,7 +2192,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤝",
@@ -2004,7 +2203,8 @@ public object EmojiList {
             tags = listOf("deal"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫱‍🫲",
@@ -2014,7 +2214,8 @@ public object EmojiList {
             tags = listOf("deal"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2, 7),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙏",
@@ -2024,7 +2225,8 @@ public object EmojiList {
             tags = listOf("please", "hope", "wish"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✍",
@@ -2034,7 +2236,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "💅",
@@ -2044,7 +2247,8 @@ public object EmojiList {
             tags = listOf("beauty", "manicure"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤳",
@@ -2054,7 +2258,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💪",
@@ -2064,7 +2269,8 @@ public object EmojiList {
             tags = listOf("flex", "bicep", "strong", "workout"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦾",
@@ -2074,7 +2280,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦿",
@@ -2084,7 +2291,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦵",
@@ -2094,7 +2302,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦶",
@@ -2104,7 +2313,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👂",
@@ -2114,7 +2324,8 @@ public object EmojiList {
             tags = listOf("hear", "sound", "listen"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦻",
@@ -2124,7 +2335,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👃",
@@ -2134,7 +2346,8 @@ public object EmojiList {
             tags = listOf("smell"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧠",
@@ -2144,7 +2357,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫀",
@@ -2154,7 +2368,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫁",
@@ -2164,7 +2379,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦷",
@@ -2174,7 +2390,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦴",
@@ -2184,7 +2401,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👀",
@@ -2194,7 +2412,8 @@ public object EmojiList {
             tags = listOf("look", "see", "watch"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👁",
@@ -2204,7 +2423,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "👅",
@@ -2214,7 +2434,8 @@ public object EmojiList {
             tags = listOf("taste"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👄",
@@ -2224,7 +2445,8 @@ public object EmojiList {
             tags = listOf("kiss"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫦",
@@ -2234,7 +2456,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👶",
@@ -2244,7 +2467,8 @@ public object EmojiList {
             tags = listOf("child", "newborn"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧒",
@@ -2254,7 +2478,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👦",
@@ -2264,7 +2489,8 @@ public object EmojiList {
             tags = listOf("child"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👧",
@@ -2274,7 +2500,8 @@ public object EmojiList {
             tags = listOf("child"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑",
@@ -2284,7 +2511,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👱",
@@ -2294,7 +2522,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨",
@@ -2304,7 +2533,8 @@ public object EmojiList {
             tags = listOf("mustache", "father", "dad"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧔",
@@ -2314,7 +2544,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧔‍♂",
@@ -2324,7 +2555,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧔‍♀",
@@ -2334,7 +2566,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.1f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍🦰",
@@ -2344,7 +2577,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦱",
@@ -2354,7 +2588,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦳",
@@ -2364,7 +2599,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦲",
@@ -2374,7 +2610,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩",
@@ -2384,7 +2621,8 @@ public object EmojiList {
             tags = listOf("girls"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦰",
@@ -2394,7 +2632,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦰",
@@ -2404,7 +2643,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦱",
@@ -2414,7 +2654,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦱",
@@ -2424,7 +2665,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦳",
@@ -2434,7 +2676,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦳",
@@ -2444,7 +2687,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦲",
@@ -2454,7 +2698,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦲",
@@ -2464,7 +2709,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👱‍♀",
@@ -2474,7 +2720,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👱‍♂",
@@ -2484,7 +2731,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧓",
@@ -2494,7 +2742,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👴",
@@ -2504,7 +2753,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👵",
@@ -2514,7 +2764,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙍",
@@ -2524,7 +2775,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙍‍♂",
@@ -2534,7 +2786,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙍‍♀",
@@ -2544,7 +2797,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙎",
@@ -2554,7 +2808,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙎‍♂",
@@ -2564,7 +2819,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙎‍♀",
@@ -2574,7 +2830,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙅",
@@ -2584,7 +2841,8 @@ public object EmojiList {
             tags = listOf("stop", "halt", "denied"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙅‍♂",
@@ -2594,7 +2852,8 @@ public object EmojiList {
             tags = listOf("stop", "halt", "denied"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙅‍♀",
@@ -2604,7 +2863,8 @@ public object EmojiList {
             tags = listOf("stop", "halt", "denied"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙆",
@@ -2614,7 +2874,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙆‍♂",
@@ -2624,7 +2885,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙆‍♀",
@@ -2634,7 +2896,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💁",
@@ -2644,7 +2907,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💁‍♂",
@@ -2654,7 +2918,8 @@ public object EmojiList {
             tags = listOf("information"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💁‍♀",
@@ -2664,7 +2929,8 @@ public object EmojiList {
             tags = listOf("information"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙋",
@@ -2674,7 +2940,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙋‍♂",
@@ -2684,7 +2951,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙋‍♀",
@@ -2694,7 +2962,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧏",
@@ -2704,7 +2973,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧏‍♂",
@@ -2714,7 +2984,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧏‍♀",
@@ -2724,7 +2995,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙇",
@@ -2734,7 +3006,8 @@ public object EmojiList {
             tags = listOf("respect", "thanks"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🙇‍♂",
@@ -2744,7 +3017,8 @@ public object EmojiList {
             tags = listOf("respect", "thanks"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🙇‍♀",
@@ -2754,7 +3028,8 @@ public object EmojiList {
             tags = listOf("respect", "thanks"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤦",
@@ -2764,7 +3039,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤦‍♂",
@@ -2774,7 +3050,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤦‍♀",
@@ -2784,7 +3061,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤷",
@@ -2794,7 +3072,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤷‍♂",
@@ -2804,7 +3083,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤷‍♀",
@@ -2814,7 +3094,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍⚕",
@@ -2824,7 +3105,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍⚕",
@@ -2834,7 +3116,8 @@ public object EmojiList {
             tags = listOf("doctor", "nurse"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍⚕",
@@ -2844,7 +3127,8 @@ public object EmojiList {
             tags = listOf("doctor", "nurse"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍🎓",
@@ -2854,7 +3138,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🎓",
@@ -2864,7 +3149,8 @@ public object EmojiList {
             tags = listOf("graduation"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🎓",
@@ -2874,7 +3160,8 @@ public object EmojiList {
             tags = listOf("graduation"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🏫",
@@ -2884,7 +3171,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🏫",
@@ -2894,7 +3182,8 @@ public object EmojiList {
             tags = listOf("school", "professor"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🏫",
@@ -2904,7 +3193,8 @@ public object EmojiList {
             tags = listOf("school", "professor"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍⚖",
@@ -2914,7 +3204,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍⚖",
@@ -2924,7 +3215,8 @@ public object EmojiList {
             tags = listOf("justice"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍⚖",
@@ -2934,7 +3226,8 @@ public object EmojiList {
             tags = listOf("justice"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍🌾",
@@ -2944,7 +3237,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🌾",
@@ -2954,7 +3248,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🌾",
@@ -2964,7 +3259,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🍳",
@@ -2974,7 +3270,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🍳",
@@ -2984,7 +3281,8 @@ public object EmojiList {
             tags = listOf("chef"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🍳",
@@ -2994,7 +3292,8 @@ public object EmojiList {
             tags = listOf("chef"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🔧",
@@ -3004,7 +3303,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🔧",
@@ -3014,7 +3314,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🔧",
@@ -3024,7 +3325,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🏭",
@@ -3034,7 +3336,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🏭",
@@ -3044,7 +3347,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🏭",
@@ -3054,7 +3358,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍💼",
@@ -3064,7 +3369,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍💼",
@@ -3074,7 +3380,8 @@ public object EmojiList {
             tags = listOf("business"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍💼",
@@ -3084,7 +3391,8 @@ public object EmojiList {
             tags = listOf("business"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🔬",
@@ -3094,7 +3402,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🔬",
@@ -3104,7 +3413,8 @@ public object EmojiList {
             tags = listOf("research"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🔬",
@@ -3114,7 +3424,8 @@ public object EmojiList {
             tags = listOf("research"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍💻",
@@ -3124,7 +3435,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍💻",
@@ -3134,7 +3446,8 @@ public object EmojiList {
             tags = listOf("coder"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍💻",
@@ -3144,7 +3457,8 @@ public object EmojiList {
             tags = listOf("coder"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🎤",
@@ -3154,7 +3468,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🎤",
@@ -3164,7 +3479,8 @@ public object EmojiList {
             tags = listOf("rockstar"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🎤",
@@ -3174,7 +3490,8 @@ public object EmojiList {
             tags = listOf("rockstar"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🎨",
@@ -3184,7 +3501,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🎨",
@@ -3194,7 +3512,8 @@ public object EmojiList {
             tags = listOf("painter"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🎨",
@@ -3204,7 +3523,8 @@ public object EmojiList {
             tags = listOf("painter"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍✈",
@@ -3214,7 +3534,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍✈",
@@ -3224,7 +3545,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍✈",
@@ -3234,7 +3556,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍🚀",
@@ -3244,7 +3567,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🚀",
@@ -3254,7 +3578,8 @@ public object EmojiList {
             tags = listOf("space"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🚀",
@@ -3264,7 +3589,8 @@ public object EmojiList {
             tags = listOf("space"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🚒",
@@ -3274,7 +3600,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🚒",
@@ -3284,7 +3611,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🚒",
@@ -3294,7 +3622,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👮",
@@ -3304,7 +3633,8 @@ public object EmojiList {
             tags = listOf("law"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👮‍♂",
@@ -3314,7 +3644,8 @@ public object EmojiList {
             tags = listOf("law", "cop"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👮‍♀",
@@ -3324,7 +3655,8 @@ public object EmojiList {
             tags = listOf("law", "cop"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🕵",
@@ -3334,7 +3666,8 @@ public object EmojiList {
             tags = listOf("sleuth"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🕵‍♂",
@@ -3344,7 +3677,8 @@ public object EmojiList {
             tags = listOf("sleuth"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🕵‍♀",
@@ -3354,7 +3688,8 @@ public object EmojiList {
             tags = listOf("sleuth"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "💂",
@@ -3364,7 +3699,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💂‍♂",
@@ -3374,7 +3710,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💂‍♀",
@@ -3384,7 +3721,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🥷",
@@ -3394,7 +3732,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👷",
@@ -3404,7 +3743,8 @@ public object EmojiList {
             tags = listOf("helmet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👷‍♂",
@@ -3414,7 +3754,8 @@ public object EmojiList {
             tags = listOf("helmet"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👷‍♀",
@@ -3424,7 +3765,8 @@ public object EmojiList {
             tags = listOf("helmet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🫅",
@@ -3434,7 +3776,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤴",
@@ -3444,7 +3787,8 @@ public object EmojiList {
             tags = listOf("crown", "royal"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👸",
@@ -3454,7 +3798,8 @@ public object EmojiList {
             tags = listOf("crown", "royal"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👳",
@@ -3464,7 +3809,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👳‍♂",
@@ -3474,7 +3820,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👳‍♀",
@@ -3484,7 +3831,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👲",
@@ -3494,7 +3842,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧕",
@@ -3504,7 +3853,8 @@ public object EmojiList {
             tags = listOf("hijab"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤵",
@@ -3514,7 +3864,8 @@ public object EmojiList {
             tags = listOf("groom", "marriage", "wedding"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤵‍♂",
@@ -3524,7 +3875,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤵‍♀",
@@ -3534,7 +3886,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👰",
@@ -3544,7 +3897,8 @@ public object EmojiList {
             tags = listOf("marriage", "wedding"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👰‍♂",
@@ -3554,7 +3908,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👰‍♀",
@@ -3564,7 +3919,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤰",
@@ -3574,7 +3930,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫃",
@@ -3584,7 +3941,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫄",
@@ -3594,7 +3952,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤱",
@@ -3604,7 +3963,8 @@ public object EmojiList {
             tags = listOf("nursing"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🍼",
@@ -3614,7 +3974,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🍼",
@@ -3624,7 +3985,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🍼",
@@ -3634,7 +3996,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👼",
@@ -3644,7 +4007,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎅",
@@ -3654,7 +4018,8 @@ public object EmojiList {
             tags = listOf("christmas"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤶",
@@ -3664,7 +4029,8 @@ public object EmojiList {
             tags = listOf("santa"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🎄",
@@ -3674,7 +4040,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦸",
@@ -3684,7 +4051,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦸‍♂",
@@ -3694,7 +4062,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🦸‍♀",
@@ -3704,7 +4073,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🦹",
@@ -3714,7 +4084,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦹‍♂",
@@ -3724,7 +4095,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🦹‍♀",
@@ -3734,7 +4106,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧙",
@@ -3744,7 +4117,8 @@ public object EmojiList {
             tags = listOf("wizard"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧙‍♂",
@@ -3754,7 +4128,8 @@ public object EmojiList {
             tags = listOf("wizard"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧙‍♀",
@@ -3764,7 +4139,8 @@ public object EmojiList {
             tags = listOf("wizard"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧚",
@@ -3774,7 +4150,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧚‍♂",
@@ -3784,7 +4161,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧚‍♀",
@@ -3794,7 +4172,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧛",
@@ -3804,7 +4183,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧛‍♂",
@@ -3814,7 +4194,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧛‍♀",
@@ -3824,7 +4205,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧜",
@@ -3834,7 +4216,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧜‍♂",
@@ -3844,7 +4227,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧜‍♀",
@@ -3854,7 +4238,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧝",
@@ -3864,7 +4249,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧝‍♂",
@@ -3874,7 +4260,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧝‍♀",
@@ -3884,7 +4271,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧞",
@@ -3894,7 +4282,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧞‍♂",
@@ -3904,7 +4293,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧞‍♀",
@@ -3914,7 +4304,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧟",
@@ -3924,7 +4315,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧟‍♂",
@@ -3934,7 +4326,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧟‍♀",
@@ -3944,7 +4337,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧌",
@@ -3954,7 +4348,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💆",
@@ -3964,7 +4359,8 @@ public object EmojiList {
             tags = listOf("spa"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💆‍♂",
@@ -3974,7 +4370,8 @@ public object EmojiList {
             tags = listOf("spa"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💆‍♀",
@@ -3984,7 +4381,8 @@ public object EmojiList {
             tags = listOf("spa"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💇",
@@ -3994,7 +4392,8 @@ public object EmojiList {
             tags = listOf("beauty"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💇‍♂",
@@ -4004,7 +4403,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💇‍♀",
@@ -4014,7 +4414,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚶",
@@ -4024,7 +4425,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚶‍♂",
@@ -4034,7 +4436,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚶‍♀",
@@ -4044,7 +4447,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧍",
@@ -4054,7 +4458,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧍‍♂",
@@ -4064,7 +4469,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧍‍♀",
@@ -4074,7 +4480,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧎",
@@ -4084,7 +4491,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧎‍♂",
@@ -4094,7 +4502,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧎‍♀",
@@ -4104,7 +4513,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍🦯",
@@ -4114,7 +4524,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦯",
@@ -4124,7 +4535,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦯",
@@ -4134,7 +4546,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦼",
@@ -4144,7 +4557,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦼",
@@ -4154,7 +4568,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦼",
@@ -4164,7 +4579,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🦽",
@@ -4174,7 +4590,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🦽",
@@ -4184,7 +4601,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🦽",
@@ -4194,7 +4612,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏃",
@@ -4204,7 +4623,8 @@ public object EmojiList {
             tags = listOf("exercise", "workout", "marathon"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏃‍♂",
@@ -4214,7 +4634,8 @@ public object EmojiList {
             tags = listOf("exercise", "workout", "marathon"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🏃‍♀",
@@ -4224,7 +4645,8 @@ public object EmojiList {
             tags = listOf("exercise", "workout", "marathon"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💃",
@@ -4234,7 +4656,8 @@ public object EmojiList {
             tags = listOf("dress"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕺",
@@ -4244,7 +4667,8 @@ public object EmojiList {
             tags = listOf("dancer"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕴",
@@ -4254,7 +4678,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "👯",
@@ -4264,7 +4689,8 @@ public object EmojiList {
             tags = listOf("bunny"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👯‍♂",
@@ -4274,7 +4700,8 @@ public object EmojiList {
             tags = listOf("bunny"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👯‍♀",
@@ -4284,7 +4711,8 @@ public object EmojiList {
             tags = listOf("bunny"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧖",
@@ -4294,7 +4722,8 @@ public object EmojiList {
             tags = listOf("steamy"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧖‍♂",
@@ -4304,7 +4733,8 @@ public object EmojiList {
             tags = listOf("steamy"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧖‍♀",
@@ -4314,7 +4744,8 @@ public object EmojiList {
             tags = listOf("steamy"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧗",
@@ -4324,7 +4755,8 @@ public object EmojiList {
             tags = listOf("bouldering"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧗‍♂",
@@ -4334,7 +4766,8 @@ public object EmojiList {
             tags = listOf("bouldering"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧗‍♀",
@@ -4344,7 +4777,8 @@ public object EmojiList {
             tags = listOf("bouldering"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤺",
@@ -4354,7 +4788,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏇",
@@ -4364,7 +4799,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛷",
@@ -4374,7 +4810,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🏂",
@@ -4384,7 +4821,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏌",
@@ -4394,7 +4832,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏌‍♂",
@@ -4404,7 +4843,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🏌‍♀",
@@ -4414,7 +4854,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🏄",
@@ -4424,7 +4865,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏄‍♂",
@@ -4434,7 +4876,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🏄‍♀",
@@ -4444,7 +4887,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚣",
@@ -4454,7 +4898,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚣‍♂",
@@ -4464,7 +4909,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚣‍♀",
@@ -4474,7 +4920,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🏊",
@@ -4484,7 +4931,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏊‍♂",
@@ -4494,7 +4942,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🏊‍♀",
@@ -4504,7 +4953,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "⛹",
@@ -4514,7 +4964,8 @@ public object EmojiList {
             tags = listOf("basketball"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⛹‍♂",
@@ -4524,7 +4975,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1, 4),
         ),
         Emoji(
             emoji = "⛹‍♀",
@@ -4534,7 +4986,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1, 4),
         ),
         Emoji(
             emoji = "🏋",
@@ -4544,7 +4997,8 @@ public object EmojiList {
             tags = listOf("gym", "workout"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏋‍♂",
@@ -4554,7 +5008,8 @@ public object EmojiList {
             tags = listOf("gym", "workout"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🏋‍♀",
@@ -4564,7 +5019,8 @@ public object EmojiList {
             tags = listOf("gym", "workout"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🚴",
@@ -4574,7 +5030,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚴‍♂",
@@ -4584,7 +5041,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚴‍♀",
@@ -4594,7 +5052,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚵",
@@ -4604,7 +5063,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚵‍♂",
@@ -4614,7 +5074,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🚵‍♀",
@@ -4624,7 +5085,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤸",
@@ -4634,7 +5096,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤸‍♂",
@@ -4644,7 +5107,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤸‍♀",
@@ -4654,7 +5118,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤼",
@@ -4664,7 +5129,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤼‍♂",
@@ -4674,7 +5140,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤼‍♀",
@@ -4684,7 +5151,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤽",
@@ -4694,7 +5162,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤽‍♂",
@@ -4704,7 +5173,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤽‍♀",
@@ -4714,7 +5184,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤾",
@@ -4724,7 +5195,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤾‍♂",
@@ -4734,7 +5206,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤾‍♀",
@@ -4744,7 +5217,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤹",
@@ -4754,7 +5228,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤹‍♂",
@@ -4764,7 +5239,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🤹‍♀",
@@ -4774,7 +5250,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧘",
@@ -4784,7 +5261,8 @@ public object EmojiList {
             tags = listOf("meditation"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧘‍♂",
@@ -4794,7 +5272,8 @@ public object EmojiList {
             tags = listOf("meditation"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧘‍♀",
@@ -4804,7 +5283,8 @@ public object EmojiList {
             tags = listOf("meditation"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🛀",
@@ -4814,7 +5294,8 @@ public object EmojiList {
             tags = listOf("shower"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛌",
@@ -4824,7 +5305,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍🤝‍🧑",
@@ -4834,7 +5316,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = listOf(2, 10),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👭",
@@ -4844,7 +5327,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🤝‍👩",
@@ -4854,7 +5338,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2, 10),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👫",
@@ -4864,7 +5349,8 @@ public object EmojiList {
             tags = listOf("date"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍🤝‍👨",
@@ -4874,7 +5360,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2, 10),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👬",
@@ -4884,7 +5371,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍🤝‍👨",
@@ -4894,7 +5382,8 @@ public object EmojiList {
             tags = listOf("couple", "date"),
             unicodeVersion = UnicodeVersion.Version(12.1f),
             iosVersion = 13.2f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2, 10),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💏",
@@ -4904,7 +5393,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧑‍❤‍💋‍🧑",
@@ -4914,7 +5404,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍❤‍💋‍👨",
@@ -4924,7 +5415,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍❤‍💋‍👨",
@@ -4934,7 +5426,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍❤‍💋‍👩",
@@ -4944,7 +5437,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "💑",
@@ -4954,7 +5448,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = listOf(2),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍❤‍👨",
@@ -4964,7 +5459,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🧑‍❤‍🧑",
@@ -4972,9 +5468,10 @@ public object EmojiList {
             category = "People & Body",
             aliases = listOf("couple_with_heart_person_person"),
             tags = emptyList(),
-            unicodeVersion = UnicodeVersion.Version(6.0f),
-            iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            unicodeVersion = UnicodeVersion.Version(11.0f),
+            iosVersion = 14.5f,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👨‍❤‍👨",
@@ -4984,7 +5481,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👩‍❤‍👩",
@@ -4994,7 +5492,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = true,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "👪",
@@ -5004,7 +5503,8 @@ public object EmojiList {
             tags = listOf("home", "parents", "child"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
     )
 
@@ -5017,7 +5517,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👩‍👧",
@@ -5027,7 +5528,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👩‍👧‍👦",
@@ -5037,7 +5539,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👩‍👦‍👦",
@@ -5047,7 +5550,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👩‍👧‍👧",
@@ -5057,7 +5561,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👨‍👦",
@@ -5067,7 +5572,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👨‍👧",
@@ -5077,7 +5583,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👨‍👧‍👦",
@@ -5087,7 +5594,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👨‍👦‍👦",
@@ -5097,7 +5605,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👨‍👧‍👧",
@@ -5107,7 +5616,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👩‍👦",
@@ -5117,7 +5627,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👩‍👧",
@@ -5127,7 +5638,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👩‍👧‍👦",
@@ -5137,7 +5649,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👩‍👦‍👦",
@@ -5147,7 +5660,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👩‍👧‍👧",
@@ -5157,7 +5671,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👦",
@@ -5167,7 +5682,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👦‍👦",
@@ -5177,7 +5693,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👧",
@@ -5187,7 +5704,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👧‍👦",
@@ -5197,7 +5715,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👨‍👧‍👧",
@@ -5207,7 +5726,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👦",
@@ -5217,7 +5737,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👦‍👦",
@@ -5227,7 +5748,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👧",
@@ -5237,7 +5759,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👧‍👦",
@@ -5247,7 +5770,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👩‍👧‍👧",
@@ -5257,7 +5781,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗣",
@@ -5267,7 +5792,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "👤",
@@ -5277,7 +5803,8 @@ public object EmojiList {
             tags = listOf("user"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👥",
@@ -5287,7 +5814,8 @@ public object EmojiList {
             tags = listOf("users", "group", "team"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫂",
@@ -5297,7 +5825,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👣",
@@ -5307,7 +5836,8 @@ public object EmojiList {
             tags = listOf("feet", "tracks"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐵",
@@ -5317,7 +5847,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐒",
@@ -5327,7 +5858,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦍",
@@ -5337,7 +5869,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦧",
@@ -5347,7 +5880,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐶",
@@ -5357,7 +5891,8 @@ public object EmojiList {
             tags = listOf("pet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐕",
@@ -5367,7 +5902,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦮",
@@ -5377,7 +5913,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐕‍🦺",
@@ -5387,7 +5924,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐩",
@@ -5397,7 +5935,8 @@ public object EmojiList {
             tags = listOf("dog"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐺",
@@ -5407,7 +5946,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦊",
@@ -5417,7 +5957,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦝",
@@ -5427,7 +5968,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐱",
@@ -5437,7 +5979,8 @@ public object EmojiList {
             tags = listOf("pet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐈",
@@ -5447,7 +5990,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐈‍⬛",
@@ -5457,7 +6001,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦁",
@@ -5467,7 +6012,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐯",
@@ -5477,7 +6023,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐅",
@@ -5487,7 +6034,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐆",
@@ -5497,7 +6045,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐴",
@@ -5507,7 +6056,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐎",
@@ -5517,7 +6067,8 @@ public object EmojiList {
             tags = listOf("speed"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦄",
@@ -5527,7 +6078,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦓",
@@ -5537,7 +6089,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦌",
@@ -5547,7 +6100,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦬",
@@ -5557,7 +6111,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐮",
@@ -5567,7 +6122,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐂",
@@ -5577,7 +6133,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐃",
@@ -5587,7 +6144,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐄",
@@ -5597,7 +6155,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐷",
@@ -5607,7 +6166,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐖",
@@ -5617,7 +6177,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐗",
@@ -5627,7 +6188,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐽",
@@ -5637,7 +6199,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐏",
@@ -5647,7 +6210,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐑",
@@ -5657,7 +6221,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐐",
@@ -5667,7 +6232,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐪",
@@ -5677,7 +6243,8 @@ public object EmojiList {
             tags = listOf("desert"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐫",
@@ -5687,7 +6254,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦙",
@@ -5697,7 +6265,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦒",
@@ -5707,7 +6276,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐘",
@@ -5717,7 +6287,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦣",
@@ -5727,7 +6298,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦏",
@@ -5737,7 +6309,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦛",
@@ -5747,7 +6320,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐭",
@@ -5757,7 +6331,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐁",
@@ -5767,7 +6342,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐀",
@@ -5777,7 +6353,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐹",
@@ -5787,7 +6364,8 @@ public object EmojiList {
             tags = listOf("pet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐰",
@@ -5797,7 +6375,8 @@ public object EmojiList {
             tags = listOf("bunny"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐇",
@@ -5807,7 +6386,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐿",
@@ -5817,7 +6397,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🦫",
@@ -5827,7 +6408,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦔",
@@ -5837,7 +6419,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦇",
@@ -5847,7 +6430,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐻",
@@ -5857,7 +6441,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐻‍❄",
@@ -5867,7 +6452,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🐨",
@@ -5877,7 +6463,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐼",
@@ -5887,7 +6474,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦥",
@@ -5897,7 +6485,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦦",
@@ -5907,7 +6496,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦨",
@@ -5917,7 +6507,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦘",
@@ -5927,7 +6518,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦡",
@@ -5937,7 +6529,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐾",
@@ -5947,7 +6540,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦃",
@@ -5957,7 +6551,8 @@ public object EmojiList {
             tags = listOf("thanksgiving"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐔",
@@ -5967,7 +6562,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐓",
@@ -5977,7 +6573,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐣",
@@ -5987,7 +6584,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐤",
@@ -5997,7 +6595,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐥",
@@ -6007,7 +6606,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐦",
@@ -6017,7 +6617,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐧",
@@ -6027,7 +6628,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕊",
@@ -6037,7 +6639,8 @@ public object EmojiList {
             tags = listOf("peace"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🦅",
@@ -6047,7 +6650,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦆",
@@ -6057,7 +6661,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦢",
@@ -6067,7 +6672,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦉",
@@ -6077,7 +6683,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦤",
@@ -6087,7 +6694,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪶",
@@ -6097,7 +6705,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦩",
@@ -6107,7 +6716,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦚",
@@ -6117,7 +6727,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦜",
@@ -6127,7 +6738,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐸",
@@ -6137,7 +6749,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐊",
@@ -6147,7 +6760,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐢",
@@ -6157,7 +6771,8 @@ public object EmojiList {
             tags = listOf("slow"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦎",
@@ -6167,7 +6782,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐍",
@@ -6177,7 +6793,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐲",
@@ -6187,7 +6804,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐉",
@@ -6197,7 +6815,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦕",
@@ -6207,7 +6826,8 @@ public object EmojiList {
             tags = listOf("dinosaur"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦖",
@@ -6217,7 +6837,8 @@ public object EmojiList {
             tags = listOf("dinosaur"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐳",
@@ -6227,7 +6848,8 @@ public object EmojiList {
             tags = listOf("sea"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐋",
@@ -6237,7 +6859,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐬",
@@ -6247,7 +6870,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦭",
@@ -6257,7 +6881,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐟",
@@ -6267,7 +6892,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐠",
@@ -6277,7 +6903,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐡",
@@ -6287,7 +6914,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦈",
@@ -6297,7 +6925,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐙",
@@ -6307,7 +6936,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐚",
@@ -6317,7 +6947,8 @@ public object EmojiList {
             tags = listOf("sea", "beach"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪸",
@@ -6327,7 +6958,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐌",
@@ -6337,7 +6969,8 @@ public object EmojiList {
             tags = listOf("slow"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦋",
@@ -6347,7 +6980,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐛",
@@ -6357,7 +6991,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐜",
@@ -6367,7 +7002,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐝",
@@ -6377,7 +7013,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪲",
@@ -6387,7 +7024,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🐞",
@@ -6397,7 +7035,8 @@ public object EmojiList {
             tags = listOf("bug"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦗",
@@ -6407,7 +7046,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪳",
@@ -6417,7 +7057,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕷",
@@ -6427,7 +7068,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🕸",
@@ -6437,7 +7079,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🦂",
@@ -6447,7 +7090,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦟",
@@ -6457,7 +7101,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪰",
@@ -6467,7 +7112,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪱",
@@ -6477,7 +7123,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦠",
@@ -6487,7 +7134,8 @@ public object EmojiList {
             tags = listOf("germ"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💐",
@@ -6497,7 +7145,8 @@ public object EmojiList {
             tags = listOf("flowers"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌸",
@@ -6507,7 +7156,8 @@ public object EmojiList {
             tags = listOf("flower", "spring"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💮",
@@ -6517,7 +7167,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪷",
@@ -6527,7 +7178,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏵",
@@ -6537,7 +7189,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌹",
@@ -6547,7 +7200,8 @@ public object EmojiList {
             tags = listOf("flower"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥀",
@@ -6557,7 +7211,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌺",
@@ -6567,7 +7222,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌻",
@@ -6577,7 +7233,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌼",
@@ -6587,7 +7244,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌷",
@@ -6597,7 +7255,8 @@ public object EmojiList {
             tags = listOf("flower"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌱",
@@ -6607,7 +7266,8 @@ public object EmojiList {
             tags = listOf("plant"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪴",
@@ -6617,7 +7277,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌲",
@@ -6627,7 +7288,8 @@ public object EmojiList {
             tags = listOf("wood"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌳",
@@ -6637,7 +7299,8 @@ public object EmojiList {
             tags = listOf("wood"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌴",
@@ -6647,7 +7310,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌵",
@@ -6657,7 +7321,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌾",
@@ -6667,7 +7332,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌿",
@@ -6677,7 +7343,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☘",
@@ -6687,7 +7354,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🍀",
@@ -6697,7 +7365,8 @@ public object EmojiList {
             tags = listOf("luck"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍁",
@@ -6707,7 +7376,8 @@ public object EmojiList {
             tags = listOf("canada"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍂",
@@ -6717,7 +7387,8 @@ public object EmojiList {
             tags = listOf("autumn"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍃",
@@ -6727,7 +7398,8 @@ public object EmojiList {
             tags = listOf("leaf"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪹",
@@ -6737,7 +7409,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪺",
@@ -6747,7 +7420,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍇",
@@ -6757,7 +7431,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍈",
@@ -6767,7 +7442,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍉",
@@ -6777,7 +7453,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍊",
@@ -6787,7 +7464,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍋",
@@ -6797,7 +7475,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍌",
@@ -6807,7 +7486,8 @@ public object EmojiList {
             tags = listOf("fruit"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍍",
@@ -6817,7 +7497,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥭",
@@ -6827,7 +7508,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍎",
@@ -6837,7 +7519,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍏",
@@ -6847,7 +7530,8 @@ public object EmojiList {
             tags = listOf("fruit"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍐",
@@ -6857,7 +7541,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍑",
@@ -6867,7 +7552,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍒",
@@ -6877,7 +7563,8 @@ public object EmojiList {
             tags = listOf("fruit"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍓",
@@ -6887,7 +7574,8 @@ public object EmojiList {
             tags = listOf("fruit"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫐",
@@ -6897,7 +7585,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥝",
@@ -6907,7 +7596,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍅",
@@ -6917,7 +7607,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫒",
@@ -6927,7 +7618,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥥",
@@ -6937,7 +7629,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥑",
@@ -6947,7 +7640,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍆",
@@ -6957,7 +7651,8 @@ public object EmojiList {
             tags = listOf("aubergine"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥔",
@@ -6967,7 +7662,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥕",
@@ -6977,7 +7673,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌽",
@@ -6987,7 +7684,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌶",
@@ -6997,7 +7695,8 @@ public object EmojiList {
             tags = listOf("spicy"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🫑",
@@ -7007,7 +7706,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥒",
@@ -7017,7 +7717,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥬",
@@ -7027,7 +7728,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥦",
@@ -7037,7 +7739,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧄",
@@ -7047,7 +7750,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧅",
@@ -7057,7 +7761,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍄",
@@ -7067,7 +7772,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥜",
@@ -7077,7 +7783,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫘",
@@ -7087,7 +7794,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌰",
@@ -7097,7 +7805,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍞",
@@ -7107,7 +7816,8 @@ public object EmojiList {
             tags = listOf("toast"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥐",
@@ -7117,7 +7827,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥖",
@@ -7127,7 +7838,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫓",
@@ -7137,7 +7849,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥨",
@@ -7147,7 +7860,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥯",
@@ -7157,7 +7871,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥞",
@@ -7167,7 +7882,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧇",
@@ -7177,7 +7893,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧀",
@@ -7187,7 +7904,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍖",
@@ -7197,7 +7915,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍗",
@@ -7207,7 +7926,8 @@ public object EmojiList {
             tags = listOf("meat", "chicken"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥩",
@@ -7217,7 +7937,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥓",
@@ -7227,7 +7948,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍔",
@@ -7237,7 +7959,8 @@ public object EmojiList {
             tags = listOf("burger"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍟",
@@ -7247,7 +7970,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍕",
@@ -7257,7 +7981,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌭",
@@ -7267,7 +7992,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥪",
@@ -7277,7 +8003,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌮",
@@ -7287,7 +8014,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌯",
@@ -7297,7 +8025,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫔",
@@ -7307,7 +8036,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥙",
@@ -7317,7 +8047,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧆",
@@ -7327,7 +8058,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥚",
@@ -7337,7 +8069,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍳",
@@ -7347,7 +8080,8 @@ public object EmojiList {
             tags = listOf("breakfast"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥘",
@@ -7357,7 +8091,8 @@ public object EmojiList {
             tags = listOf("paella", "curry"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍲",
@@ -7367,7 +8102,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫕",
@@ -7377,7 +8113,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥣",
@@ -7387,7 +8124,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥗",
@@ -7397,7 +8135,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍿",
@@ -7407,7 +8146,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧈",
@@ -7417,7 +8157,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧂",
@@ -7427,7 +8168,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥫",
@@ -7437,7 +8179,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍱",
@@ -7447,7 +8190,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍘",
@@ -7457,7 +8201,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍙",
@@ -7467,7 +8212,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍚",
@@ -7477,7 +8223,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍛",
@@ -7487,7 +8234,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍜",
@@ -7497,7 +8245,8 @@ public object EmojiList {
             tags = listOf("noodle"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍝",
@@ -7507,7 +8256,8 @@ public object EmojiList {
             tags = listOf("pasta"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍠",
@@ -7517,7 +8267,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍢",
@@ -7527,7 +8278,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍣",
@@ -7537,7 +8289,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍤",
@@ -7547,7 +8300,8 @@ public object EmojiList {
             tags = listOf("tempura"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍥",
@@ -7557,7 +8311,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥮",
@@ -7567,7 +8322,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍡",
@@ -7577,7 +8333,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥟",
@@ -7587,7 +8344,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥠",
@@ -7597,7 +8355,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥡",
@@ -7607,7 +8366,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦀",
@@ -7617,7 +8377,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦞",
@@ -7627,7 +8388,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦐",
@@ -7637,7 +8399,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦑",
@@ -7647,7 +8410,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦪",
@@ -7657,7 +8421,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍦",
@@ -7667,7 +8432,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍧",
@@ -7677,7 +8443,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍨",
@@ -7687,7 +8454,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍩",
@@ -7697,7 +8465,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍪",
@@ -7707,7 +8476,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎂",
@@ -7717,7 +8487,8 @@ public object EmojiList {
             tags = listOf("party"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍰",
@@ -7727,7 +8498,8 @@ public object EmojiList {
             tags = listOf("dessert"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧁",
@@ -7737,7 +8509,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥧",
@@ -7747,7 +8520,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍫",
@@ -7757,7 +8531,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍬",
@@ -7767,7 +8542,8 @@ public object EmojiList {
             tags = listOf("sweet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍭",
@@ -7777,7 +8553,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍮",
@@ -7787,7 +8564,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍯",
@@ -7797,7 +8575,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍼",
@@ -7807,7 +8586,8 @@ public object EmojiList {
             tags = listOf("milk"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥛",
@@ -7817,7 +8597,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☕",
@@ -7827,7 +8608,8 @@ public object EmojiList {
             tags = listOf("cafe", "espresso"),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫖",
@@ -7837,7 +8619,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍵",
@@ -7847,7 +8630,8 @@ public object EmojiList {
             tags = listOf("green", "breakfast"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍶",
@@ -7857,7 +8641,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍾",
@@ -7867,7 +8652,8 @@ public object EmojiList {
             tags = listOf("bottle", "bubbly", "celebration"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍷",
@@ -7877,7 +8663,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍸",
@@ -7887,7 +8674,8 @@ public object EmojiList {
             tags = listOf("drink"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍹",
@@ -7897,7 +8685,8 @@ public object EmojiList {
             tags = listOf("summer", "vacation"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍺",
@@ -7907,7 +8696,8 @@ public object EmojiList {
             tags = listOf("drink"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍻",
@@ -7917,7 +8707,8 @@ public object EmojiList {
             tags = listOf("drinks"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥂",
@@ -7927,7 +8718,8 @@ public object EmojiList {
             tags = listOf("cheers", "toast"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥃",
@@ -7937,7 +8729,8 @@ public object EmojiList {
             tags = listOf("whisky"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫗",
@@ -7947,7 +8740,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥤",
@@ -7957,7 +8751,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧋",
@@ -7967,7 +8762,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧃",
@@ -7977,7 +8773,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧉",
@@ -7987,7 +8784,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧊",
@@ -7997,7 +8795,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥢",
@@ -8007,7 +8806,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🍽",
@@ -8017,7 +8817,8 @@ public object EmojiList {
             tags = listOf("dining", "dinner"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🍴",
@@ -8027,7 +8828,8 @@ public object EmojiList {
             tags = listOf("cutlery"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥄",
@@ -8037,7 +8839,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔪",
@@ -8047,7 +8850,8 @@ public object EmojiList {
             tags = listOf("cut", "chop"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫙",
@@ -8057,7 +8861,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏺",
@@ -8067,7 +8872,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌍",
@@ -8077,7 +8883,8 @@ public object EmojiList {
             tags = listOf("globe", "world", "international"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌎",
@@ -8087,7 +8894,8 @@ public object EmojiList {
             tags = listOf("globe", "world", "international"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌏",
@@ -8097,7 +8905,8 @@ public object EmojiList {
             tags = listOf("globe", "world", "international"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌐",
@@ -8107,7 +8916,8 @@ public object EmojiList {
             tags = listOf("world", "global", "international"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗺",
@@ -8117,7 +8927,8 @@ public object EmojiList {
             tags = listOf("travel"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗾",
@@ -8127,7 +8938,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧭",
@@ -8137,7 +8949,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏔",
@@ -8147,7 +8960,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⛰",
@@ -8157,7 +8971,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🌋",
@@ -8167,7 +8982,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗻",
@@ -8177,7 +8993,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏕",
@@ -8187,7 +9004,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏖",
@@ -8197,7 +9015,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏜",
@@ -8207,7 +9026,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏝",
@@ -8217,7 +9037,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏞",
@@ -8227,7 +9048,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏟",
@@ -8237,7 +9059,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏛",
@@ -8247,7 +9070,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏗",
@@ -8257,7 +9081,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🧱",
@@ -8267,7 +9092,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪨",
@@ -8277,7 +9103,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪵",
@@ -8287,7 +9114,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛖",
@@ -8297,7 +9125,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏘",
@@ -8307,7 +9136,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏚",
@@ -8317,7 +9147,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏠",
@@ -8327,7 +9158,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏡",
@@ -8337,7 +9169,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏢",
@@ -8347,7 +9180,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏣",
@@ -8357,7 +9191,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏤",
@@ -8367,7 +9202,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏥",
@@ -8377,7 +9213,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏦",
@@ -8387,7 +9224,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏨",
@@ -8397,7 +9235,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏩",
@@ -8407,7 +9246,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏪",
@@ -8417,7 +9257,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏫",
@@ -8427,7 +9268,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏬",
@@ -8437,7 +9279,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏭",
@@ -8447,7 +9290,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏯",
@@ -8457,7 +9301,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏰",
@@ -8467,7 +9312,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💒",
@@ -8477,7 +9323,8 @@ public object EmojiList {
             tags = listOf("marriage"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗼",
@@ -8487,7 +9334,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗽",
@@ -8497,7 +9345,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛪",
@@ -8507,7 +9356,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕌",
@@ -8517,7 +9367,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛕",
@@ -8527,7 +9378,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕍",
@@ -8537,7 +9389,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛩",
@@ -8547,7 +9400,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🕋",
@@ -8557,7 +9411,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛲",
@@ -8567,7 +9422,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛺",
@@ -8577,7 +9433,8 @@ public object EmojiList {
             tags = listOf("camping"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌁",
@@ -8587,7 +9444,8 @@ public object EmojiList {
             tags = listOf("karl"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌃",
@@ -8597,7 +9455,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏙",
@@ -8607,7 +9466,8 @@ public object EmojiList {
             tags = listOf("skyline"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌄",
@@ -8617,7 +9477,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌅",
@@ -8627,7 +9488,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌆",
@@ -8637,7 +9499,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌇",
@@ -8647,7 +9510,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌉",
@@ -8657,7 +9521,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♨",
@@ -8667,7 +9532,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🎠",
@@ -8677,7 +9543,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛝",
@@ -8687,7 +9554,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎡",
@@ -8697,7 +9565,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎢",
@@ -8707,7 +9576,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💈",
@@ -8717,7 +9587,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎪",
@@ -8727,7 +9598,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚂",
@@ -8737,7 +9609,8 @@ public object EmojiList {
             tags = listOf("train"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚃",
@@ -8747,7 +9620,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚄",
@@ -8757,7 +9631,8 @@ public object EmojiList {
             tags = listOf("train"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚅",
@@ -8767,7 +9642,8 @@ public object EmojiList {
             tags = listOf("train"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚆",
@@ -8777,7 +9653,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚇",
@@ -8787,7 +9664,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚈",
@@ -8797,7 +9675,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚉",
@@ -8807,7 +9686,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚊",
@@ -8817,7 +9697,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚝",
@@ -8827,7 +9708,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚞",
@@ -8837,7 +9719,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚋",
@@ -8847,7 +9730,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚌",
@@ -8857,7 +9741,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚍",
@@ -8867,7 +9752,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚎",
@@ -8877,7 +9763,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚐",
@@ -8887,7 +9774,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚑",
@@ -8897,7 +9785,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚒",
@@ -8907,7 +9796,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚓",
@@ -8917,7 +9807,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚔",
@@ -8927,7 +9818,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚕",
@@ -8937,7 +9829,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚖",
@@ -8947,7 +9840,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚗",
@@ -8957,7 +9851,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚘",
@@ -8967,7 +9862,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚙",
@@ -8977,7 +9873,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛻",
@@ -8987,7 +9884,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚚",
@@ -8997,7 +9895,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚛",
@@ -9007,7 +9906,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚜",
@@ -9017,7 +9917,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏎",
@@ -9027,7 +9928,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏍",
@@ -9037,7 +9939,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🛵",
@@ -9047,7 +9950,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦽",
@@ -9057,7 +9961,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦼",
@@ -9067,7 +9972,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛺",
@@ -9077,7 +9983,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚲",
@@ -9087,7 +9994,8 @@ public object EmojiList {
             tags = listOf("bicycle"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛴",
@@ -9097,7 +10005,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛹",
@@ -9107,7 +10016,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛼",
@@ -9117,7 +10027,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚏",
@@ -9127,7 +10038,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛣",
@@ -9137,7 +10049,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🛤",
@@ -9147,7 +10060,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🛢",
@@ -9157,7 +10071,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⛽",
@@ -9167,7 +10082,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛞",
@@ -9177,7 +10093,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚨",
@@ -9187,7 +10104,8 @@ public object EmojiList {
             tags = listOf("911", "emergency"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚥",
@@ -9197,7 +10115,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚦",
@@ -9207,7 +10126,8 @@ public object EmojiList {
             tags = listOf("semaphore"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛑",
@@ -9217,7 +10137,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚧",
@@ -9227,7 +10148,8 @@ public object EmojiList {
             tags = listOf("wip"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚓",
@@ -9237,7 +10159,8 @@ public object EmojiList {
             tags = listOf("ship"),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛟",
@@ -9247,7 +10170,8 @@ public object EmojiList {
             tags = listOf("life preserver"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛵",
@@ -9257,7 +10181,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛶",
@@ -9267,7 +10192,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚤",
@@ -9277,7 +10203,8 @@ public object EmojiList {
             tags = listOf("ship"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛳",
@@ -9287,7 +10214,8 @@ public object EmojiList {
             tags = listOf("cruise"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⛴",
@@ -9297,7 +10225,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🛥",
@@ -9307,7 +10236,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🚢",
@@ -9317,7 +10247,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✈",
@@ -9327,7 +10258,8 @@ public object EmojiList {
             tags = listOf("flight"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🛩",
@@ -9337,7 +10269,8 @@ public object EmojiList {
             tags = listOf("flight"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🛫",
@@ -9347,7 +10280,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛬",
@@ -9357,7 +10291,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪂",
@@ -9367,7 +10302,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💺",
@@ -9377,7 +10313,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚁",
@@ -9387,7 +10324,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚟",
@@ -9397,7 +10335,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚠",
@@ -9407,7 +10346,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚡",
@@ -9417,7 +10357,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛰",
@@ -9427,7 +10368,8 @@ public object EmojiList {
             tags = listOf("orbit", "space"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🚀",
@@ -9437,7 +10379,8 @@ public object EmojiList {
             tags = listOf("ship", "launch"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛸",
@@ -9447,7 +10390,8 @@ public object EmojiList {
             tags = listOf("ufo"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛎",
@@ -9457,7 +10401,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🧳",
@@ -9467,7 +10412,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⌛",
@@ -9477,7 +10423,8 @@ public object EmojiList {
             tags = listOf("time"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏳",
@@ -9487,7 +10434,8 @@ public object EmojiList {
             tags = listOf("time"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⌚",
@@ -9497,7 +10445,8 @@ public object EmojiList {
             tags = listOf("time"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏰",
@@ -9507,7 +10456,8 @@ public object EmojiList {
             tags = listOf("morning"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏱",
@@ -9517,7 +10467,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏲",
@@ -9527,7 +10478,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🕰",
@@ -9537,7 +10489,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🕛",
@@ -9547,7 +10500,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕧",
@@ -9557,7 +10511,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕐",
@@ -9567,7 +10522,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕜",
@@ -9577,7 +10533,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕑",
@@ -9587,7 +10544,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕝",
@@ -9597,7 +10555,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕒",
@@ -9607,7 +10566,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕞",
@@ -9617,7 +10577,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕓",
@@ -9627,7 +10588,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕟",
@@ -9637,7 +10599,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕔",
@@ -9647,7 +10610,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕠",
@@ -9657,7 +10621,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕕",
@@ -9667,7 +10632,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕡",
@@ -9677,7 +10643,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕖",
@@ -9687,7 +10654,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕢",
@@ -9697,7 +10665,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕗",
@@ -9707,7 +10676,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕣",
@@ -9717,7 +10687,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕘",
@@ -9727,7 +10698,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕤",
@@ -9737,7 +10709,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕙",
@@ -9747,7 +10720,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕥",
@@ -9757,7 +10731,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕚",
@@ -9767,7 +10742,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕦",
@@ -9777,7 +10753,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌑",
@@ -9787,7 +10764,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌒",
@@ -9797,7 +10775,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌓",
@@ -9807,7 +10786,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌔",
@@ -9817,7 +10797,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌕",
@@ -9827,7 +10808,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌖",
@@ -9837,7 +10819,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌗",
@@ -9847,7 +10830,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌘",
@@ -9857,7 +10841,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌙",
@@ -9867,7 +10852,8 @@ public object EmojiList {
             tags = listOf("night"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌚",
@@ -9877,7 +10863,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌛",
@@ -9887,7 +10874,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌜",
@@ -9897,7 +10885,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌡",
@@ -9907,7 +10896,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "☀",
@@ -9917,7 +10907,8 @@ public object EmojiList {
             tags = listOf("weather"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🌝",
@@ -9927,7 +10918,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌞",
@@ -9937,7 +10929,8 @@ public object EmojiList {
             tags = listOf("summer"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪐",
@@ -9947,7 +10940,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⭐",
@@ -9957,7 +10951,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌟",
@@ -9967,7 +10962,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌠",
@@ -9977,7 +10973,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌌",
@@ -9987,7 +10984,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☁",
@@ -9997,7 +10995,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⛅",
@@ -10007,7 +11006,8 @@ public object EmojiList {
             tags = listOf("weather", "cloud"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
     )
 
@@ -10020,7 +11020,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🌤",
@@ -10030,7 +11031,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌥",
@@ -10040,7 +11042,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌦",
@@ -10050,7 +11053,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌧",
@@ -10060,7 +11064,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌨",
@@ -10070,7 +11075,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌩",
@@ -10080,7 +11086,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌪",
@@ -10090,7 +11097,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌫",
@@ -10100,7 +11108,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌬",
@@ -10110,7 +11119,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🌀",
@@ -10120,7 +11130,8 @@ public object EmojiList {
             tags = listOf("swirl"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌈",
@@ -10130,7 +11141,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌂",
@@ -10140,7 +11152,8 @@ public object EmojiList {
             tags = listOf("weather", "rain"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☂",
@@ -10150,7 +11163,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☔",
@@ -10160,7 +11174,8 @@ public object EmojiList {
             tags = listOf("rain", "weather"),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛱",
@@ -10170,7 +11185,8 @@ public object EmojiList {
             tags = listOf("beach_umbrella"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⚡",
@@ -10180,7 +11196,8 @@ public object EmojiList {
             tags = listOf("lightning", "thunder"),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❄",
@@ -10190,7 +11207,8 @@ public object EmojiList {
             tags = listOf("winter", "cold", "weather"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☃",
@@ -10200,7 +11218,8 @@ public object EmojiList {
             tags = listOf("winter", "christmas"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⛄",
@@ -10210,7 +11229,8 @@ public object EmojiList {
             tags = listOf("winter"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☄",
@@ -10220,7 +11240,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔥",
@@ -10230,7 +11251,8 @@ public object EmojiList {
             tags = listOf("burn"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💧",
@@ -10240,7 +11262,8 @@ public object EmojiList {
             tags = listOf("water"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🌊",
@@ -10250,7 +11273,8 @@ public object EmojiList {
             tags = listOf("sea"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎃",
@@ -10260,7 +11284,8 @@ public object EmojiList {
             tags = listOf("halloween"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎄",
@@ -10270,7 +11295,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎆",
@@ -10280,7 +11306,8 @@ public object EmojiList {
             tags = listOf("festival", "celebration"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎇",
@@ -10290,7 +11317,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧨",
@@ -10300,7 +11328,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✨",
@@ -10310,7 +11339,8 @@ public object EmojiList {
             tags = listOf("shiny"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎈",
@@ -10320,7 +11350,8 @@ public object EmojiList {
             tags = listOf("party", "birthday"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎉",
@@ -10330,7 +11361,8 @@ public object EmojiList {
             tags = listOf("hooray", "party"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎊",
@@ -10340,7 +11372,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎋",
@@ -10350,7 +11383,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎍",
@@ -10360,7 +11394,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎎",
@@ -10370,7 +11405,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎏",
@@ -10380,7 +11416,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎐",
@@ -10390,7 +11427,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎑",
@@ -10400,7 +11438,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧧",
@@ -10410,7 +11449,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎀",
@@ -10420,7 +11460,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎁",
@@ -10430,7 +11471,8 @@ public object EmojiList {
             tags = listOf("present", "birthday", "christmas"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎗",
@@ -10440,7 +11482,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎟",
@@ -10450,7 +11493,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎫",
@@ -10460,7 +11504,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎖",
@@ -10470,7 +11515,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏆",
@@ -10480,7 +11526,8 @@ public object EmojiList {
             tags = listOf("award", "contest", "winner"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏅",
@@ -10490,7 +11537,8 @@ public object EmojiList {
             tags = listOf("gold", "winner"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥇",
@@ -10500,7 +11548,8 @@ public object EmojiList {
             tags = listOf("gold"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥈",
@@ -10510,7 +11559,8 @@ public object EmojiList {
             tags = listOf("silver"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥉",
@@ -10520,7 +11570,8 @@ public object EmojiList {
             tags = listOf("bronze"),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚽",
@@ -10530,7 +11581,8 @@ public object EmojiList {
             tags = listOf("sports"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚾",
@@ -10540,7 +11592,8 @@ public object EmojiList {
             tags = listOf("sports"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥎",
@@ -10550,7 +11603,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏀",
@@ -10560,7 +11614,8 @@ public object EmojiList {
             tags = listOf("sports"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏐",
@@ -10570,7 +11625,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏈",
@@ -10580,7 +11636,8 @@ public object EmojiList {
             tags = listOf("sports"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏉",
@@ -10590,7 +11647,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎾",
@@ -10600,7 +11658,8 @@ public object EmojiList {
             tags = listOf("sports"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥏",
@@ -10610,7 +11669,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎳",
@@ -10620,7 +11680,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏏",
@@ -10630,7 +11691,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏑",
@@ -10640,7 +11702,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏒",
@@ -10650,7 +11713,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥍",
@@ -10660,7 +11724,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏓",
@@ -10670,7 +11735,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏸",
@@ -10680,7 +11746,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥊",
@@ -10690,7 +11757,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥋",
@@ -10700,7 +11768,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥅",
@@ -10710,7 +11779,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛳",
@@ -10720,7 +11790,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛸",
@@ -10730,7 +11801,8 @@ public object EmojiList {
             tags = listOf("skating"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🎣",
@@ -10740,7 +11812,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🤿",
@@ -10750,7 +11823,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎽",
@@ -10760,7 +11834,8 @@ public object EmojiList {
             tags = listOf("marathon"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎿",
@@ -10770,7 +11845,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛷",
@@ -10780,7 +11856,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥌",
@@ -10790,7 +11867,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎯",
@@ -10800,7 +11878,8 @@ public object EmojiList {
             tags = listOf("target"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪀",
@@ -10810,7 +11889,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪁",
@@ -10820,7 +11900,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎱",
@@ -10830,7 +11911,8 @@ public object EmojiList {
             tags = listOf("pool", "billiards"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔮",
@@ -10840,7 +11922,8 @@ public object EmojiList {
             tags = listOf("fortune"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪄",
@@ -10850,7 +11933,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧿",
@@ -10860,7 +11944,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪬",
@@ -10870,7 +11955,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎮",
@@ -10880,7 +11966,8 @@ public object EmojiList {
             tags = listOf("play", "controller", "console"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕹",
@@ -10890,7 +11977,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎰",
@@ -10900,7 +11988,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎲",
@@ -10910,7 +11999,8 @@ public object EmojiList {
             tags = listOf("dice", "gambling"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧩",
@@ -10920,7 +12010,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧸",
@@ -10930,7 +12021,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪅",
@@ -10940,7 +12032,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪩",
@@ -10950,7 +12043,8 @@ public object EmojiList {
             tags = listOf("disco", "party"),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪆",
@@ -10960,7 +12054,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♠",
@@ -10970,7 +12065,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♥",
@@ -10980,7 +12076,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♦",
@@ -10990,7 +12087,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♣",
@@ -11000,7 +12098,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♟",
@@ -11010,7 +12109,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🃏",
@@ -11020,7 +12120,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🀄",
@@ -11030,7 +12131,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎴",
@@ -11040,7 +12142,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎭",
@@ -11050,7 +12153,8 @@ public object EmojiList {
             tags = listOf("theater", "drama"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖼",
@@ -11060,7 +12164,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎨",
@@ -11070,7 +12175,8 @@ public object EmojiList {
             tags = listOf("design", "paint"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧵",
@@ -11080,7 +12186,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪡",
@@ -11090,7 +12197,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧶",
@@ -11100,7 +12208,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪢",
@@ -11110,7 +12219,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👓",
@@ -11120,7 +12230,8 @@ public object EmojiList {
             tags = listOf("glasses"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕶",
@@ -11130,7 +12241,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🥽",
@@ -11140,7 +12252,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥼",
@@ -11150,7 +12263,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🦺",
@@ -11160,7 +12274,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👔",
@@ -11170,7 +12285,8 @@ public object EmojiList {
             tags = listOf("shirt", "formal"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👕",
@@ -11180,7 +12296,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👖",
@@ -11190,7 +12307,8 @@ public object EmojiList {
             tags = listOf("pants"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧣",
@@ -11200,7 +12318,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧤",
@@ -11210,7 +12329,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧥",
@@ -11220,7 +12340,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧦",
@@ -11230,7 +12351,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👗",
@@ -11240,7 +12362,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👘",
@@ -11250,7 +12373,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥻",
@@ -11260,7 +12384,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩱",
@@ -11270,7 +12395,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩲",
@@ -11280,7 +12406,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩳",
@@ -11290,7 +12417,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👙",
@@ -11300,7 +12428,8 @@ public object EmojiList {
             tags = listOf("beach"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👚",
@@ -11310,7 +12439,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👛",
@@ -11320,7 +12450,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👜",
@@ -11330,7 +12461,8 @@ public object EmojiList {
             tags = listOf("bag"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👝",
@@ -11340,7 +12472,8 @@ public object EmojiList {
             tags = listOf("bag"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛍",
@@ -11350,7 +12483,8 @@ public object EmojiList {
             tags = listOf("bags"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎒",
@@ -11360,7 +12494,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩴",
@@ -11370,7 +12505,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👞",
@@ -11380,7 +12516,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👟",
@@ -11390,7 +12527,8 @@ public object EmojiList {
             tags = listOf("sneaker", "sport", "running"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥾",
@@ -11400,7 +12538,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥿",
@@ -11410,7 +12549,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👠",
@@ -11420,7 +12560,8 @@ public object EmojiList {
             tags = listOf("shoe"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👡",
@@ -11430,7 +12571,8 @@ public object EmojiList {
             tags = listOf("shoe"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩰",
@@ -11440,7 +12582,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👢",
@@ -11450,7 +12593,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👑",
@@ -11460,7 +12604,8 @@ public object EmojiList {
             tags = listOf("king", "queen", "royal"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "👒",
@@ -11470,7 +12615,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎩",
@@ -11480,7 +12626,8 @@ public object EmojiList {
             tags = listOf("hat", "classy"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎓",
@@ -11490,7 +12637,8 @@ public object EmojiList {
             tags = listOf("education", "college", "university", "graduation"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧢",
@@ -11500,7 +12648,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪖",
@@ -11510,7 +12659,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛑",
@@ -11520,7 +12670,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "📿",
@@ -11530,7 +12681,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💄",
@@ -11540,7 +12692,8 @@ public object EmojiList {
             tags = listOf("makeup"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💍",
@@ -11550,7 +12703,8 @@ public object EmojiList {
             tags = listOf("wedding", "marriage", "engaged"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💎",
@@ -11560,7 +12714,8 @@ public object EmojiList {
             tags = listOf("diamond"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔇",
@@ -11570,7 +12725,8 @@ public object EmojiList {
             tags = listOf("sound", "volume"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔈",
@@ -11580,7 +12736,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔉",
@@ -11590,7 +12747,8 @@ public object EmojiList {
             tags = listOf("volume"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔊",
@@ -11600,7 +12758,8 @@ public object EmojiList {
             tags = listOf("volume"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📢",
@@ -11610,7 +12769,8 @@ public object EmojiList {
             tags = listOf("announcement"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📣",
@@ -11620,7 +12780,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📯",
@@ -11630,7 +12791,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔔",
@@ -11640,7 +12802,8 @@ public object EmojiList {
             tags = listOf("sound", "notification"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔕",
@@ -11650,7 +12813,8 @@ public object EmojiList {
             tags = listOf("volume", "off"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎼",
@@ -11660,7 +12824,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎵",
@@ -11670,7 +12835,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎶",
@@ -11680,7 +12846,8 @@ public object EmojiList {
             tags = listOf("music"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎙",
@@ -11690,7 +12857,8 @@ public object EmojiList {
             tags = listOf("podcast"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎚",
@@ -11700,7 +12868,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎛",
@@ -11710,7 +12879,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎤",
@@ -11720,7 +12890,8 @@ public object EmojiList {
             tags = listOf("sing"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎧",
@@ -11730,7 +12901,8 @@ public object EmojiList {
             tags = listOf("music", "earphones"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📻",
@@ -11740,7 +12912,8 @@ public object EmojiList {
             tags = listOf("podcast"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎷",
@@ -11750,7 +12923,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪗",
@@ -11760,7 +12934,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎸",
@@ -11770,7 +12945,8 @@ public object EmojiList {
             tags = listOf("rock"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎹",
@@ -11780,7 +12956,8 @@ public object EmojiList {
             tags = listOf("piano"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎺",
@@ -11790,7 +12967,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎻",
@@ -11800,7 +12978,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪕",
@@ -11810,7 +12989,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🥁",
@@ -11820,7 +13000,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪘",
@@ -11830,7 +13011,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📱",
@@ -11840,7 +13022,8 @@ public object EmojiList {
             tags = listOf("smartphone", "mobile"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📲",
@@ -11850,7 +13033,8 @@ public object EmojiList {
             tags = listOf("call", "incoming"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☎",
@@ -11860,7 +13044,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "📞",
@@ -11870,7 +13055,8 @@ public object EmojiList {
             tags = listOf("phone", "call"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📟",
@@ -11880,7 +13066,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📠",
@@ -11890,7 +13077,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔋",
@@ -11900,7 +13088,8 @@ public object EmojiList {
             tags = listOf("power"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪫",
@@ -11910,7 +13099,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔌",
@@ -11920,7 +13110,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💻",
@@ -11930,7 +13121,8 @@ public object EmojiList {
             tags = listOf("desktop", "screen"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖥",
@@ -11940,7 +13132,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🖨",
@@ -11950,7 +13143,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⌨",
@@ -11960,7 +13154,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🖱",
@@ -11970,7 +13165,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🖲",
@@ -11980,7 +13176,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "💽",
@@ -11990,7 +13187,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💾",
@@ -12000,7 +13198,8 @@ public object EmojiList {
             tags = listOf("save"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💿",
@@ -12010,7 +13209,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📀",
@@ -12020,7 +13220,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧮",
@@ -12030,7 +13231,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎥",
@@ -12040,7 +13242,8 @@ public object EmojiList {
             tags = listOf("film", "video"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎞",
@@ -12050,7 +13253,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📽",
@@ -12060,7 +13264,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🎬",
@@ -12070,7 +13275,8 @@ public object EmojiList {
             tags = listOf("film"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📺",
@@ -12080,7 +13286,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📷",
@@ -12090,7 +13297,8 @@ public object EmojiList {
             tags = listOf("photo"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📸",
@@ -12100,7 +13308,8 @@ public object EmojiList {
             tags = listOf("photo"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📹",
@@ -12110,7 +13319,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📼",
@@ -12120,7 +13330,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔍",
@@ -12130,7 +13341,8 @@ public object EmojiList {
             tags = listOf("search", "zoom"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔎",
@@ -12140,7 +13352,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🕯",
@@ -12150,7 +13363,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "💡",
@@ -12160,7 +13374,8 @@ public object EmojiList {
             tags = listOf("idea", "light"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔦",
@@ -12170,7 +13385,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏮",
@@ -12180,7 +13396,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪔",
@@ -12190,7 +13407,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📔",
@@ -12200,7 +13418,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📕",
@@ -12210,7 +13429,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📖",
@@ -12220,7 +13440,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📗",
@@ -12230,7 +13451,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📘",
@@ -12240,7 +13462,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📙",
@@ -12250,7 +13473,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📚",
@@ -12260,7 +13484,8 @@ public object EmojiList {
             tags = listOf("library"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📓",
@@ -12270,7 +13495,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📒",
@@ -12280,7 +13506,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📃",
@@ -12290,7 +13517,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📜",
@@ -12300,7 +13528,8 @@ public object EmojiList {
             tags = listOf("document"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📄",
@@ -12310,7 +13539,8 @@ public object EmojiList {
             tags = listOf("document"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📰",
@@ -12320,7 +13550,8 @@ public object EmojiList {
             tags = listOf("press"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗞",
@@ -12330,7 +13561,8 @@ public object EmojiList {
             tags = listOf("press"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📑",
@@ -12340,7 +13572,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔖",
@@ -12350,7 +13583,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏷",
@@ -12360,7 +13594,8 @@ public object EmojiList {
             tags = listOf("tag"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "💰",
@@ -12370,7 +13605,8 @@ public object EmojiList {
             tags = listOf("dollar", "cream"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪙",
@@ -12380,7 +13616,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💴",
@@ -12390,7 +13627,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💵",
@@ -12400,7 +13638,8 @@ public object EmojiList {
             tags = listOf("money"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💶",
@@ -12410,7 +13649,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💷",
@@ -12420,7 +13660,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💸",
@@ -12430,7 +13671,8 @@ public object EmojiList {
             tags = listOf("dollar"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💳",
@@ -12440,7 +13682,8 @@ public object EmojiList {
             tags = listOf("subscription"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧾",
@@ -12450,7 +13693,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💹",
@@ -12460,7 +13704,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✉",
@@ -12470,7 +13715,8 @@ public object EmojiList {
             tags = listOf("letter", "email"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "📧",
@@ -12480,7 +13726,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📨",
@@ -12490,7 +13737,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📩",
@@ -12500,7 +13748,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📤",
@@ -12510,7 +13759,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📥",
@@ -12520,7 +13770,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📦",
@@ -12530,7 +13781,8 @@ public object EmojiList {
             tags = listOf("shipping"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📫",
@@ -12540,7 +13792,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📪",
@@ -12550,7 +13803,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📬",
@@ -12560,7 +13814,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📭",
@@ -12570,7 +13825,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📮",
@@ -12580,7 +13836,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗳",
@@ -12590,7 +13847,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "✏",
@@ -12600,7 +13858,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✒",
@@ -12610,7 +13869,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🖋",
@@ -12620,7 +13880,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🖊",
@@ -12630,7 +13891,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🖌",
@@ -12640,7 +13902,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🖍",
@@ -12650,7 +13913,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📝",
@@ -12660,7 +13924,8 @@ public object EmojiList {
             tags = listOf("document", "note"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💼",
@@ -12670,7 +13935,8 @@ public object EmojiList {
             tags = listOf("business"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📁",
@@ -12680,7 +13946,8 @@ public object EmojiList {
             tags = listOf("directory"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📂",
@@ -12690,7 +13957,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗂",
@@ -12700,7 +13968,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📅",
@@ -12710,7 +13979,8 @@ public object EmojiList {
             tags = listOf("calendar", "schedule"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📆",
@@ -12720,7 +13990,8 @@ public object EmojiList {
             tags = listOf("schedule"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗒",
@@ -12730,7 +14001,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗓",
@@ -12740,7 +14012,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📇",
@@ -12750,7 +14023,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📈",
@@ -12760,7 +14034,8 @@ public object EmojiList {
             tags = listOf("graph", "metrics"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📉",
@@ -12770,7 +14045,8 @@ public object EmojiList {
             tags = listOf("graph", "metrics"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📊",
@@ -12780,7 +14056,8 @@ public object EmojiList {
             tags = listOf("stats", "metrics"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📋",
@@ -12790,7 +14067,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📌",
@@ -12800,7 +14078,8 @@ public object EmojiList {
             tags = listOf("location"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📍",
@@ -12810,7 +14089,8 @@ public object EmojiList {
             tags = listOf("location"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📎",
@@ -12820,7 +14100,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🖇",
@@ -12830,7 +14111,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "📏",
@@ -12840,7 +14122,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📐",
@@ -12850,7 +14133,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✂",
@@ -12860,7 +14144,8 @@ public object EmojiList {
             tags = listOf("cut"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🗃",
@@ -12870,7 +14155,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗄",
@@ -12880,7 +14166,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗑",
@@ -12890,7 +14177,8 @@ public object EmojiList {
             tags = listOf("trash"),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🔒",
@@ -12900,7 +14188,8 @@ public object EmojiList {
             tags = listOf("security", "private"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔓",
@@ -12910,7 +14199,8 @@ public object EmojiList {
             tags = listOf("security"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔏",
@@ -12920,7 +14210,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔐",
@@ -12930,7 +14221,8 @@ public object EmojiList {
             tags = listOf("security"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔑",
@@ -12940,7 +14232,8 @@ public object EmojiList {
             tags = listOf("lock", "password"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🗝",
@@ -12950,7 +14243,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🔨",
@@ -12960,7 +14254,8 @@ public object EmojiList {
             tags = listOf("tool"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪓",
@@ -12970,7 +14265,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛏",
@@ -12980,7 +14276,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⚒",
@@ -12990,7 +14287,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🛠",
@@ -13000,7 +14298,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🗡",
@@ -13010,7 +14309,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⚔",
@@ -13020,7 +14320,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔫",
@@ -13030,7 +14331,8 @@ public object EmojiList {
             tags = listOf("shoot", "weapon"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪃",
@@ -13040,7 +14342,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏹",
@@ -13050,7 +14353,8 @@ public object EmojiList {
             tags = listOf("archery"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛡",
@@ -13060,7 +14364,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🪚",
@@ -13070,7 +14375,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔧",
@@ -13080,7 +14386,8 @@ public object EmojiList {
             tags = listOf("tool"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪛",
@@ -13090,7 +14397,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔩",
@@ -13100,7 +14408,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚙",
@@ -13110,7 +14419,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🗜",
@@ -13120,7 +14430,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "⚖",
@@ -13130,7 +14441,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🦯",
@@ -13140,7 +14452,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔗",
@@ -13150,7 +14463,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛓",
@@ -13160,7 +14474,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🪝",
@@ -13170,7 +14485,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧰",
@@ -13180,7 +14496,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧲",
@@ -13190,7 +14507,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪜",
@@ -13200,7 +14518,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚗",
@@ -13210,7 +14529,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🧪",
@@ -13220,7 +14540,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧫",
@@ -13230,7 +14551,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧬",
@@ -13240,7 +14562,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔬",
@@ -13250,7 +14573,8 @@ public object EmojiList {
             tags = listOf("science", "laboratory", "investigate"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔭",
@@ -13260,7 +14584,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📡",
@@ -13270,7 +14595,8 @@ public object EmojiList {
             tags = listOf("signal"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💉",
@@ -13280,7 +14606,8 @@ public object EmojiList {
             tags = listOf("health", "hospital", "needle"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩸",
@@ -13290,7 +14617,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💊",
@@ -13300,7 +14628,8 @@ public object EmojiList {
             tags = listOf("health", "medicine"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩹",
@@ -13310,7 +14639,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩼",
@@ -13320,7 +14650,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩺",
@@ -13330,7 +14661,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🩻",
@@ -13340,7 +14672,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚪",
@@ -13350,7 +14683,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛗",
@@ -13360,7 +14694,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪞",
@@ -13370,7 +14705,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪟",
@@ -13380,7 +14716,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛏",
@@ -13390,7 +14727,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🛋",
@@ -13400,7 +14738,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🪑",
@@ -13410,7 +14749,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚽",
@@ -13420,7 +14760,8 @@ public object EmojiList {
             tags = listOf("wc"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪠",
@@ -13430,7 +14771,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚿",
@@ -13440,7 +14782,8 @@ public object EmojiList {
             tags = listOf("bath"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛁",
@@ -13450,7 +14793,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪤",
@@ -13460,7 +14804,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪒",
@@ -13470,7 +14815,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧴",
@@ -13480,7 +14826,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧷",
@@ -13490,7 +14837,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧹",
@@ -13500,7 +14848,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧺",
@@ -13510,7 +14859,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧻",
@@ -13520,7 +14870,8 @@ public object EmojiList {
             tags = listOf("toilet"),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪣",
@@ -13530,7 +14881,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧼",
@@ -13540,7 +14892,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🫧",
@@ -13550,7 +14903,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪥",
@@ -13560,7 +14914,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧽",
@@ -13570,7 +14925,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🧯",
@@ -13580,7 +14936,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛒",
@@ -13590,7 +14947,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(9.0f),
             iosVersion = 10.2f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚬",
@@ -13600,7 +14958,8 @@ public object EmojiList {
             tags = listOf("cigarette"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚰",
@@ -13610,7 +14969,8 @@ public object EmojiList {
             tags = listOf("funeral"),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🪦",
@@ -13620,7 +14980,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚱",
@@ -13630,7 +14991,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🗿",
@@ -13640,7 +15002,8 @@ public object EmojiList {
             tags = listOf("stone"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪧",
@@ -13650,7 +15013,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🪪",
@@ -13660,7 +15024,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏧",
@@ -13670,7 +15035,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚮",
@@ -13680,7 +15046,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚰",
@@ -13690,7 +15057,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♿",
@@ -13700,7 +15068,8 @@ public object EmojiList {
             tags = listOf("accessibility"),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚹",
@@ -13710,7 +15079,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚺",
@@ -13720,7 +15090,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚻",
@@ -13730,7 +15101,8 @@ public object EmojiList {
             tags = listOf("toilet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚼",
@@ -13740,7 +15112,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚾",
@@ -13750,7 +15123,8 @@ public object EmojiList {
             tags = listOf("toilet", "restroom"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛂",
@@ -13760,7 +15134,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛃",
@@ -13770,7 +15145,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛄",
@@ -13780,7 +15156,8 @@ public object EmojiList {
             tags = listOf("airport"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛅",
@@ -13790,7 +15167,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚠",
@@ -13800,7 +15178,8 @@ public object EmojiList {
             tags = listOf("wip"),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🚸",
@@ -13810,7 +15189,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛔",
@@ -13820,7 +15200,8 @@ public object EmojiList {
             tags = listOf("limit"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚫",
@@ -13830,7 +15211,8 @@ public object EmojiList {
             tags = listOf("block", "forbidden"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚳",
@@ -13840,7 +15222,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚭",
@@ -13850,7 +15233,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚯",
@@ -13860,7 +15244,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚱",
@@ -13870,7 +15255,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚷",
@@ -13880,7 +15266,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📵",
@@ -13890,7 +15277,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔞",
@@ -13900,7 +15288,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☢",
@@ -13910,7 +15299,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☣",
@@ -13920,7 +15310,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⬆",
@@ -13930,7 +15321,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↗",
@@ -13940,7 +15332,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "➡",
@@ -13950,7 +15343,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↘",
@@ -13960,7 +15354,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⬇",
@@ -13970,7 +15365,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↙",
@@ -13980,7 +15376,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⬅",
@@ -13990,7 +15387,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↖",
@@ -14000,7 +15398,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↕",
@@ -14010,7 +15409,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↔",
@@ -14020,7 +15420,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↩",
@@ -14030,7 +15431,8 @@ public object EmojiList {
             tags = listOf("return"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "↪",
@@ -14040,7 +15442,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⤴",
@@ -14050,7 +15453,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⤵",
@@ -14060,7 +15464,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔃",
@@ -14070,7 +15475,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔄",
@@ -14080,7 +15486,8 @@ public object EmojiList {
             tags = listOf("sync"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔙",
@@ -14090,7 +15497,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔚",
@@ -14100,7 +15508,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔛",
@@ -14110,7 +15519,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔜",
@@ -14120,7 +15530,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔝",
@@ -14130,7 +15541,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🛐",
@@ -14140,7 +15552,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚛",
@@ -14150,7 +15563,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🕉",
@@ -14160,7 +15574,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "✡",
@@ -14170,7 +15585,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☸",
@@ -14180,7 +15596,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☯",
@@ -14190,7 +15607,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✝",
@@ -14200,7 +15618,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☦",
@@ -14210,7 +15629,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☪",
@@ -14220,7 +15640,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "☮",
@@ -14230,7 +15651,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🕎",
@@ -14240,7 +15662,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔯",
@@ -14250,7 +15673,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♈",
@@ -14260,7 +15684,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♉",
@@ -14270,7 +15695,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♊",
@@ -14280,7 +15706,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♋",
@@ -14290,7 +15717,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♌",
@@ -14300,7 +15728,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♍",
@@ -14310,7 +15739,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♎",
@@ -14320,7 +15750,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♏",
@@ -14330,7 +15761,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♐",
@@ -14340,7 +15772,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♑",
@@ -14350,7 +15783,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♒",
@@ -14360,7 +15794,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♓",
@@ -14370,7 +15805,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⛎",
@@ -14380,7 +15816,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔀",
@@ -14390,7 +15827,8 @@ public object EmojiList {
             tags = listOf("shuffle"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔁",
@@ -14400,7 +15838,8 @@ public object EmojiList {
             tags = listOf("loop"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔂",
@@ -14410,7 +15849,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "▶",
@@ -14420,7 +15860,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏩",
@@ -14430,7 +15871,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏭",
@@ -14440,7 +15882,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏯",
@@ -14450,7 +15893,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "◀",
@@ -14460,7 +15904,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏪",
@@ -14470,7 +15915,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏮",
@@ -14480,7 +15926,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔼",
@@ -14490,7 +15937,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏫",
@@ -14500,7 +15948,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔽",
@@ -14510,7 +15959,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏬",
@@ -14520,7 +15970,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⏸",
@@ -14530,7 +15981,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏹",
@@ -14540,7 +15992,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏺",
@@ -14550,7 +16003,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⏏",
@@ -14560,7 +16014,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🎦",
@@ -14570,7 +16025,8 @@ public object EmojiList {
             tags = listOf("film", "movie"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔅",
@@ -14580,7 +16036,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔆",
@@ -14590,7 +16047,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📶",
@@ -14600,7 +16058,8 @@ public object EmojiList {
             tags = listOf("wifi"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📳",
@@ -14610,7 +16069,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📴",
@@ -14620,7 +16080,8 @@ public object EmojiList {
             tags = listOf("mute", "off"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♀",
@@ -14630,7 +16091,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♂",
@@ -14640,7 +16102,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⚧",
@@ -14650,7 +16113,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✖",
@@ -14660,7 +16124,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "➕",
@@ -14670,7 +16135,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "➖",
@@ -14680,7 +16146,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "➗",
@@ -14690,7 +16157,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟰",
@@ -14700,7 +16168,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(14.0f),
             iosVersion = 15.4f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "♾",
@@ -14710,7 +16179,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "‼",
@@ -14720,7 +16190,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⁉",
@@ -14730,7 +16201,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "❓",
@@ -14740,7 +16212,8 @@ public object EmojiList {
             tags = listOf("confused"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❔",
@@ -14750,7 +16223,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❕",
@@ -14760,7 +16234,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❗",
@@ -14770,7 +16245,8 @@ public object EmojiList {
             tags = listOf("bang"),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "〰",
@@ -14780,7 +16256,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "💱",
@@ -14790,7 +16267,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💲",
@@ -14800,7 +16278,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚕",
@@ -14810,7 +16289,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "♻",
@@ -14820,7 +16300,8 @@ public object EmojiList {
             tags = listOf("environment", "green"),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "⚜",
@@ -14830,7 +16311,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔱",
@@ -14840,7 +16322,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "📛",
@@ -14850,7 +16333,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔰",
@@ -14860,7 +16344,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⭕",
@@ -14870,7 +16355,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "✅",
@@ -14880,7 +16366,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "☑",
@@ -14890,7 +16377,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✔",
@@ -14900,7 +16388,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "❌",
@@ -14910,7 +16399,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "❎",
@@ -14920,7 +16410,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "➰",
@@ -14930,7 +16421,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "➿",
@@ -14940,7 +16432,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "〽",
@@ -14950,7 +16443,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✳",
@@ -14960,7 +16454,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "✴",
@@ -14970,7 +16465,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "❇",
@@ -14980,7 +16476,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "©",
@@ -14990,7 +16487,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "®",
@@ -15000,7 +16498,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "™",
@@ -15010,7 +16509,8 @@ public object EmojiList {
             tags = listOf("trademark"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
     )
 
@@ -15023,7 +16523,8 @@ public object EmojiList {
             tags = listOf("number"),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "*⃣",
@@ -15033,7 +16534,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "0⃣",
@@ -15043,7 +16545,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "1⃣",
@@ -15053,7 +16556,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "2⃣",
@@ -15063,7 +16567,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "3⃣",
@@ -15073,7 +16578,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "4⃣",
@@ -15083,7 +16589,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "5⃣",
@@ -15093,7 +16600,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "6⃣",
@@ -15103,7 +16611,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "7⃣",
@@ -15113,7 +16622,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "8⃣",
@@ -15123,7 +16633,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "9⃣",
@@ -15133,7 +16644,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔟",
@@ -15143,7 +16655,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔠",
@@ -15153,7 +16666,8 @@ public object EmojiList {
             tags = listOf("letters"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔡",
@@ -15163,7 +16677,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔢",
@@ -15173,7 +16688,8 @@ public object EmojiList {
             tags = listOf("numbers"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔣",
@@ -15183,7 +16699,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔤",
@@ -15193,7 +16710,8 @@ public object EmojiList {
             tags = listOf("alphabet"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🅰",
@@ -15203,7 +16721,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🆎",
@@ -15213,7 +16732,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🅱",
@@ -15223,7 +16743,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🆑",
@@ -15233,7 +16754,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🆒",
@@ -15243,7 +16765,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🆓",
@@ -15253,7 +16776,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "ℹ",
@@ -15263,7 +16787,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🆔",
@@ -15273,7 +16798,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "Ⓜ",
@@ -15283,7 +16809,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🆕",
@@ -15293,7 +16820,8 @@ public object EmojiList {
             tags = listOf("fresh"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🆖",
@@ -15303,7 +16831,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🅾",
@@ -15313,7 +16842,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🆗",
@@ -15323,7 +16853,8 @@ public object EmojiList {
             tags = listOf("yes"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🅿",
@@ -15333,7 +16864,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🆘",
@@ -15343,7 +16875,8 @@ public object EmojiList {
             tags = listOf("help", "emergency"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🆙",
@@ -15353,7 +16886,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🆚",
@@ -15363,7 +16897,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈁",
@@ -15373,7 +16908,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈂",
@@ -15383,7 +16919,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🈷",
@@ -15393,7 +16930,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🈶",
@@ -15403,7 +16941,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈯",
@@ -15413,7 +16952,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🉐",
@@ -15423,7 +16963,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈹",
@@ -15433,7 +16974,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈚",
@@ -15443,7 +16985,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈲",
@@ -15453,7 +16996,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🉑",
@@ -15463,7 +17007,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈸",
@@ -15473,7 +17018,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈴",
@@ -15483,7 +17029,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈳",
@@ -15493,7 +17040,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "㊗",
@@ -15503,7 +17051,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "㊙",
@@ -15513,7 +17062,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🈺",
@@ -15523,7 +17073,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🈵",
@@ -15533,7 +17084,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔴",
@@ -15543,7 +17095,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟠",
@@ -15553,7 +17106,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟡",
@@ -15563,7 +17117,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟢",
@@ -15573,7 +17128,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔵",
@@ -15583,7 +17139,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟣",
@@ -15593,7 +17150,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟤",
@@ -15603,7 +17161,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚫",
@@ -15613,7 +17172,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⚪",
@@ -15623,7 +17183,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(4.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟥",
@@ -15633,7 +17194,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟧",
@@ -15643,7 +17205,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟨",
@@ -15653,7 +17216,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟩",
@@ -15663,7 +17227,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟦",
@@ -15673,7 +17238,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟪",
@@ -15683,7 +17249,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🟫",
@@ -15693,7 +17260,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(12.0f),
             iosVersion = 13.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⬛",
@@ -15703,7 +17271,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "⬜",
@@ -15713,7 +17282,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(5.1f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "◼",
@@ -15723,7 +17293,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "◻",
@@ -15733,7 +17304,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "◾",
@@ -15743,7 +17315,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "◽",
@@ -15753,7 +17326,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(3.2f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "▪",
@@ -15763,7 +17337,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "▫",
@@ -15773,7 +17348,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Empty,
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(1),
         ),
         Emoji(
             emoji = "🔶",
@@ -15783,7 +17359,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔷",
@@ -15793,7 +17370,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔸",
@@ -15803,7 +17381,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔹",
@@ -15813,7 +17392,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔺",
@@ -15823,7 +17403,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔻",
@@ -15833,7 +17414,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "💠",
@@ -15843,7 +17425,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔘",
@@ -15853,7 +17436,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔳",
@@ -15863,7 +17447,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🔲",
@@ -15873,7 +17458,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏁",
@@ -15883,7 +17469,8 @@ public object EmojiList {
             tags = listOf("milestone", "finish"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🚩",
@@ -15893,7 +17480,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🎌",
@@ -15903,7 +17491,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏴",
@@ -15913,7 +17502,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏳",
@@ -15923,7 +17513,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(7.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏳‍🌈",
@@ -15933,7 +17524,8 @@ public object EmojiList {
             tags = listOf("pride"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 10.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2),
         ),
         Emoji(
             emoji = "🏳‍⚧",
@@ -15943,7 +17535,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(13.0f),
             iosVersion = 14.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(2, 5),
         ),
         Emoji(
             emoji = "🏴‍☠",
@@ -15953,7 +17546,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = listOf(4),
         ),
         Emoji(
             emoji = "🇦🇨",
@@ -15963,7 +17557,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇩",
@@ -15973,7 +17568,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇪",
@@ -15983,7 +17579,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇫",
@@ -15993,7 +17590,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇬",
@@ -16003,7 +17601,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇮",
@@ -16013,7 +17612,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇱",
@@ -16023,7 +17623,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇲",
@@ -16033,7 +17634,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇴",
@@ -16043,7 +17645,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇶",
@@ -16053,7 +17656,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇷",
@@ -16063,7 +17667,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇸",
@@ -16073,7 +17678,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇹",
@@ -16083,7 +17689,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇺",
@@ -16093,7 +17700,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇼",
@@ -16103,7 +17711,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇽",
@@ -16113,7 +17722,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇦🇿",
@@ -16123,7 +17733,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇦",
@@ -16133,7 +17744,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇧",
@@ -16143,7 +17755,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇩",
@@ -16153,7 +17766,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇪",
@@ -16163,7 +17777,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇫",
@@ -16173,7 +17788,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇬",
@@ -16183,7 +17799,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇭",
@@ -16193,7 +17810,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇮",
@@ -16203,7 +17821,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇯",
@@ -16213,7 +17832,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇱",
@@ -16223,7 +17843,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇲",
@@ -16233,7 +17854,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇳",
@@ -16243,7 +17865,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇴",
@@ -16253,7 +17876,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇶",
@@ -16263,7 +17887,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇷",
@@ -16273,7 +17898,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇸",
@@ -16283,7 +17909,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇹",
@@ -16293,7 +17920,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇻",
@@ -16303,7 +17931,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇼",
@@ -16313,7 +17942,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇾",
@@ -16323,7 +17953,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇧🇿",
@@ -16333,7 +17964,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇦",
@@ -16343,7 +17975,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇨",
@@ -16353,7 +17986,8 @@ public object EmojiList {
             tags = listOf("keeling"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇩",
@@ -16363,7 +17997,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇫",
@@ -16373,7 +18008,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇬",
@@ -16383,7 +18019,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇭",
@@ -16393,7 +18030,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇮",
@@ -16403,7 +18041,8 @@ public object EmojiList {
             tags = listOf("ivory"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇰",
@@ -16413,7 +18052,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇱",
@@ -16423,7 +18063,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇲",
@@ -16433,7 +18074,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇳",
@@ -16443,7 +18085,8 @@ public object EmojiList {
             tags = listOf("china"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇴",
@@ -16453,7 +18096,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇵",
@@ -16463,7 +18107,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇷",
@@ -16473,7 +18118,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇺",
@@ -16483,7 +18129,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇻",
@@ -16493,7 +18140,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇼",
@@ -16503,7 +18151,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇽",
@@ -16513,7 +18162,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇾",
@@ -16523,7 +18173,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇨🇿",
@@ -16533,7 +18184,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇪",
@@ -16543,7 +18195,8 @@ public object EmojiList {
             tags = listOf("flag", "germany"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇬",
@@ -16553,7 +18206,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇯",
@@ -16563,7 +18217,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇰",
@@ -16573,7 +18228,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇲",
@@ -16583,7 +18239,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇴",
@@ -16593,7 +18250,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇩🇿",
@@ -16603,7 +18261,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇦",
@@ -16613,7 +18272,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇨",
@@ -16623,7 +18283,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇪",
@@ -16633,7 +18294,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇬",
@@ -16643,7 +18305,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇭",
@@ -16653,7 +18316,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇷",
@@ -16663,7 +18327,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇸",
@@ -16673,7 +18338,8 @@ public object EmojiList {
             tags = listOf("spain"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇹",
@@ -16683,7 +18349,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇪🇺",
@@ -16693,7 +18360,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇮",
@@ -16703,7 +18371,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇯",
@@ -16713,7 +18382,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇰",
@@ -16723,7 +18393,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇲",
@@ -16733,7 +18404,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇴",
@@ -16743,7 +18415,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇫🇷",
@@ -16753,7 +18426,8 @@ public object EmojiList {
             tags = listOf("france", "french"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇦",
@@ -16763,7 +18437,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇧",
@@ -16773,7 +18448,8 @@ public object EmojiList {
             tags = listOf("flag", "british"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇩",
@@ -16783,7 +18459,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇪",
@@ -16793,7 +18470,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇫",
@@ -16803,7 +18481,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇬",
@@ -16813,7 +18492,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇭",
@@ -16823,7 +18503,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇮",
@@ -16833,7 +18514,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇱",
@@ -16843,7 +18525,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇲",
@@ -16853,7 +18536,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇳",
@@ -16863,7 +18547,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇵",
@@ -16873,7 +18558,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇶",
@@ -16883,7 +18569,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇷",
@@ -16893,7 +18580,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇸",
@@ -16903,7 +18591,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇹",
@@ -16913,7 +18602,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇺",
@@ -16923,7 +18613,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇼",
@@ -16933,7 +18624,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇬🇾",
@@ -16943,7 +18635,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇰",
@@ -16953,7 +18646,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇲",
@@ -16963,7 +18657,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇳",
@@ -16973,7 +18668,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇷",
@@ -16983,7 +18679,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇹",
@@ -16993,7 +18690,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇭🇺",
@@ -17003,7 +18701,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇨",
@@ -17013,7 +18712,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇩",
@@ -17023,7 +18723,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇪",
@@ -17033,7 +18734,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇱",
@@ -17043,7 +18745,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇲",
@@ -17053,7 +18756,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇳",
@@ -17063,7 +18767,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇴",
@@ -17073,7 +18778,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇶",
@@ -17083,7 +18789,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇷",
@@ -17093,7 +18800,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇸",
@@ -17103,7 +18811,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇮🇹",
@@ -17113,7 +18822,8 @@ public object EmojiList {
             tags = listOf("italy"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇯🇪",
@@ -17123,7 +18833,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇯🇲",
@@ -17133,7 +18844,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇯🇴",
@@ -17143,7 +18855,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇯🇵",
@@ -17153,7 +18866,8 @@ public object EmojiList {
             tags = listOf("japan"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇪",
@@ -17163,7 +18877,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇬",
@@ -17173,7 +18888,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇭",
@@ -17183,7 +18899,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇮",
@@ -17193,7 +18910,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇲",
@@ -17203,7 +18921,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇳",
@@ -17213,7 +18932,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇵",
@@ -17223,7 +18943,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇷",
@@ -17233,7 +18954,8 @@ public object EmojiList {
             tags = listOf("korea"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇼",
@@ -17243,7 +18965,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇾",
@@ -17253,7 +18976,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇰🇿",
@@ -17263,7 +18987,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇦",
@@ -17273,7 +18998,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇧",
@@ -17283,7 +19009,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇨",
@@ -17293,7 +19020,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇮",
@@ -17303,7 +19031,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇰",
@@ -17313,7 +19042,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇷",
@@ -17323,7 +19053,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇸",
@@ -17333,7 +19064,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇹",
@@ -17343,7 +19075,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇺",
@@ -17353,7 +19086,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇻",
@@ -17363,7 +19097,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇱🇾",
@@ -17373,7 +19108,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇦",
@@ -17383,7 +19119,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇨",
@@ -17393,7 +19130,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇩",
@@ -17403,7 +19141,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇪",
@@ -17413,7 +19152,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇫",
@@ -17423,7 +19163,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇬",
@@ -17433,7 +19174,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇭",
@@ -17443,7 +19185,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇰",
@@ -17453,7 +19196,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇱",
@@ -17463,7 +19207,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇲",
@@ -17473,7 +19218,8 @@ public object EmojiList {
             tags = listOf("burma"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇳",
@@ -17483,7 +19229,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇴",
@@ -17493,7 +19240,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇵",
@@ -17503,7 +19251,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇶",
@@ -17513,7 +19262,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇷",
@@ -17523,7 +19273,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇸",
@@ -17533,7 +19284,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇹",
@@ -17543,7 +19295,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇺",
@@ -17553,7 +19306,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇻",
@@ -17563,7 +19317,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇼",
@@ -17573,7 +19328,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇽",
@@ -17583,7 +19339,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇾",
@@ -17593,7 +19350,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇲🇿",
@@ -17603,7 +19361,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇦",
@@ -17613,7 +19372,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇨",
@@ -17623,7 +19383,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇪",
@@ -17633,7 +19394,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇫",
@@ -17643,7 +19405,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇬",
@@ -17653,7 +19416,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇮",
@@ -17663,7 +19427,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇱",
@@ -17673,7 +19438,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇴",
@@ -17683,7 +19449,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇵",
@@ -17693,7 +19460,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇷",
@@ -17703,7 +19471,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇺",
@@ -17713,7 +19482,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇳🇿",
@@ -17723,7 +19493,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇴🇲",
@@ -17733,7 +19504,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇦",
@@ -17743,7 +19515,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇪",
@@ -17753,7 +19526,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇫",
@@ -17763,7 +19537,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇬",
@@ -17773,7 +19548,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇭",
@@ -17783,7 +19559,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇰",
@@ -17793,7 +19570,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇱",
@@ -17803,7 +19581,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇲",
@@ -17813,7 +19592,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇳",
@@ -17823,7 +19603,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇷",
@@ -17833,7 +19614,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇸",
@@ -17843,7 +19625,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇹",
@@ -17853,7 +19636,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇼",
@@ -17863,7 +19647,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇵🇾",
@@ -17873,7 +19658,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇶🇦",
@@ -17883,7 +19669,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇷🇪",
@@ -17893,7 +19680,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇷🇴",
@@ -17903,7 +19691,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇷🇸",
@@ -17913,7 +19702,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇷🇺",
@@ -17923,7 +19713,8 @@ public object EmojiList {
             tags = listOf("russia"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇷🇼",
@@ -17933,7 +19724,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇦",
@@ -17943,7 +19735,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇧",
@@ -17953,7 +19746,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇨",
@@ -17963,7 +19757,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇩",
@@ -17973,7 +19768,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇪",
@@ -17983,7 +19779,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇬",
@@ -17993,7 +19790,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇭",
@@ -18003,7 +19801,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇮",
@@ -18013,7 +19812,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇯",
@@ -18023,7 +19823,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇰",
@@ -18033,7 +19834,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇱",
@@ -18043,7 +19845,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇲",
@@ -18053,7 +19856,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇳",
@@ -18063,7 +19867,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇴",
@@ -18073,7 +19878,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇷",
@@ -18083,7 +19889,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇸",
@@ -18093,7 +19900,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇹",
@@ -18103,7 +19911,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇻",
@@ -18113,7 +19922,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇽",
@@ -18123,7 +19933,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇾",
@@ -18133,7 +19944,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇸🇿",
@@ -18143,7 +19955,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇦",
@@ -18153,7 +19966,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇨",
@@ -18163,7 +19977,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇩",
@@ -18173,7 +19988,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇫",
@@ -18183,7 +19999,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇬",
@@ -18193,7 +20010,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇭",
@@ -18203,7 +20021,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇯",
@@ -18213,7 +20032,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇰",
@@ -18223,7 +20043,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇱",
@@ -18233,7 +20054,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇲",
@@ -18243,7 +20065,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇳",
@@ -18253,7 +20076,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇴",
@@ -18263,7 +20087,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇷",
@@ -18273,7 +20098,8 @@ public object EmojiList {
             tags = listOf("turkey"),
             unicodeVersion = UnicodeVersion.Version(8.0f),
             iosVersion = 9.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇹",
@@ -18283,7 +20109,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇻",
@@ -18293,7 +20120,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇼",
@@ -18303,7 +20131,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇹🇿",
@@ -18313,7 +20142,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇦",
@@ -18323,7 +20153,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇬",
@@ -18333,7 +20164,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇲",
@@ -18343,7 +20175,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇳",
@@ -18353,7 +20186,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇸",
@@ -18363,7 +20197,8 @@ public object EmojiList {
             tags = listOf("flag", "united", "america"),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 6.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇾",
@@ -18373,7 +20208,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇺🇿",
@@ -18383,7 +20219,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇦",
@@ -18393,7 +20230,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇨",
@@ -18403,7 +20241,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇪",
@@ -18413,7 +20252,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇬",
@@ -18423,7 +20263,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇮",
@@ -18433,7 +20274,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇳",
@@ -18443,7 +20285,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇻🇺",
@@ -18453,7 +20296,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇼🇫",
@@ -18463,7 +20307,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇼🇸",
@@ -18473,7 +20318,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇽🇰",
@@ -18483,7 +20329,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇾🇪",
@@ -18493,7 +20340,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇾🇹",
@@ -18503,7 +20351,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 9.0f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇿🇦",
@@ -18513,7 +20362,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇿🇲",
@@ -18523,7 +20373,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🇿🇼",
@@ -18533,7 +20384,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(6.0f),
             iosVersion = 8.3f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -18543,7 +20395,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -18553,7 +20406,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
         Emoji(
             emoji = "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
@@ -18563,7 +20417,8 @@ public object EmojiList {
             tags = emptyList(),
             unicodeVersion = UnicodeVersion.Version(11.0f),
             iosVersion = 12.1f,
-            supportsFitzpatrick = false,
+            fitzpatrickIndex = emptyList(),
+            vs16Index = emptyList(),
         ),
     )
 }
