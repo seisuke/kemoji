@@ -93,9 +93,10 @@ object EmojiListGenerator {
         add("listOf(\n")
         indent()
         emojiList.forEach { emoji ->
-            val group = emojiGroupList[emoji.emoji]
+            val minimallyUnicode = emoji.emoji.replace(VARIATION_SELECTOR_16, "")
+            val group = emojiGroupList[minimallyUnicode]
             val fitzpatrickIndex = if (group != null) {
-                group[1].emoji.indexesOf(fitzpatrickRegex)
+                group.maxBy { it.emoji.length }.emoji.indexesOf(fitzpatrickRegex)
             } else {
                 emptyList()
             }
@@ -105,7 +106,6 @@ object EmojiListGenerator {
             } else {
                 emptyList()
             }
-
 
             add(
                 """|Emoji(
@@ -120,7 +120,7 @@ object EmojiListGenerator {
                    |    vs16Index = %L,
                    |),
                    |""".trimMargin(),
-                emoji.emoji.replace(VARIATION_SELECTOR_16, ""), //TODO remove this line after emoji trie support vs16Index
+                minimallyUnicode,
                 emoji.description,
                 emoji.category,
                 emoji.aliases.toPoetString(),

@@ -26,7 +26,7 @@ object EmojiTestReader {
         return emojiTests.groupBy {test ->
             test.emoji.replace(fitzpatrickRegex, "")
                 .replace(VARIATION_SELECTOR_16, "")
-        }.filter { map -> map.value.size > 1 }
+        }.filter { map -> map.value.size > 2 }
     }
 
     private fun convertToEmoji(input: String): String {

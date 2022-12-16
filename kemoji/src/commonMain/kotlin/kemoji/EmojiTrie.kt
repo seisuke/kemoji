@@ -31,11 +31,81 @@ class EmojiTrie(
 
     fun getEmoji(unicode: String): Emoji? = searchNode(root, unicode)?.emoji
 
-    private tailrec fun searchNode(node: EmojiNode, pattern: String): EmojiNode? {
-        val head = pattern.firstOrNull() ?: return node
-        val child = node.children[head] ?: return null
-        val tail = pattern.drop(1)
-        return searchNode(child, tail)
+    private tailrec fun searchNode(
+        node: EmojiNode,
+        pattern: String,
+        depth: Int = 0,
+        fitzpatrickIndex: List<Int> = emptyList(),
+        vs16Index: List<Int> = emptyList(),
+    ): EmojiNode? {
+        val head = pattern.firstOrNull() ?: return node.indexCheck(fitzpatrickIndex, vs16Index)
+        return if (pattern.length >= 2 && fitzpatrickRegex.matches(pattern.substring(0, 2))) {
+            searchNode(
+                node,
+                pattern.drop(2),
+                depth + 2,
+                fitzpatrickIndex + listOf(depth),
+                vs16Index
+            )
+        } else if (head == VARIATION_SELECTOR_16) {
+            searchNode(
+                node,
+                pattern.drop(1),
+                depth + 1,
+                fitzpatrickIndex,
+                vs16Index + listOf(depth)
+            )
+        } else {
+            val child = node.children[head] ?: return null
+            searchNode(child, pattern.drop(1), depth + 1, fitzpatrickIndex, vs16Index)
+        }
+    }
+
+    private fun EmojiNode.indexCheck(
+        fitzpatrickIndex: List<Int>,
+        vs16Index: List<Int>,
+    ): EmojiNode? {
+        val emoji = this.emoji ?: return this
+
+        return if (indexCheck(fitzpatrickIndex, vs16Index, emoji)) {
+            this
+        } else {
+            null
+        }
+    }
+
+    private fun indexCheck(
+        fitzpatrickIndex: List<Int>,
+        vs16Index: List<Int>,
+        emoji: Emoji
+    ): Boolean {
+        if (fitzpatrickIndex.isNotEmpty() && vs16Index.isNotEmpty()) {
+            // for "man detective" group
+            val manDetectiveGroupOffset = if (vs16Index.size < emoji.vs16Index.size) {
+                emoji.vs16Index.size - vs16Index.size
+            } else {
+                0
+            }
+            val offsetedVs16Index = emoji.vs16Index.map { vs16 ->
+                val offset = fitzpatrickIndex.filter { it < vs16 }.size * 2
+                vs16 + offset - manDetectiveGroupOffset
+            }
+            if (fitzpatrickIndex != emoji.fitzpatrickIndex || !offsetedVs16Index.containsAll(vs16Index)) {
+                return false
+            }
+        } else if (fitzpatrickIndex.isNotEmpty() && fitzpatrickIndex != emoji.fitzpatrickIndex) {
+            // for "kiss: person, person" group
+            val offsetedFitzpatrickIndex = emoji.fitzpatrickIndex.map { fitzpatrick ->
+                val offset = emoji.vs16Index.filter { it < fitzpatrick }.size
+                fitzpatrick - offset
+            }
+            if (offsetedFitzpatrickIndex != fitzpatrickIndex) {
+                return false
+            }
+        } else if (vs16Index.isNotEmpty() && vs16Index != emoji.vs16Index) {
+            return false
+        }
+        return true
     }
 
     enum class Matches {
@@ -47,6 +117,10 @@ class EmojiTrie(
         var emoji: Emoji? = null
     }
 
+    companion object {
+        val VARIATION_SELECTOR_16 = Char(65039)
+        val fitzpatrickRegex = Regex("[\uD83C\uDFFB-\uD83C\uDFFF]")
+    }
 }
 
 

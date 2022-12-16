@@ -28,11 +28,6 @@ object EmojiManager {
 
     fun getByUnicode(unicode: String): Emoji? = emojiTrie.getEmoji(unicode)
 
-    fun isEmoji(unicode: String): Boolean {
-        val unicodeCandidate = EmojiParser.getNextUnicodeCandidate(unicode.toCharArray(), 0)
-        return unicodeCandidate != null && unicodeCandidate.startIndex == 0 && unicodeCandidate.fitzpatrickEndIndex == unicode.length
-    }
-
     fun isEmoji(unicode: String, startPos: Int, endPos: Int): EmojiTrie.Matches =
         emojiTrie.isEmoji(unicode, startPos, endPos)
 }
