@@ -26,4 +26,24 @@ class EmojiParserTest {
             result
         )
     }
+
+    @Test
+    fun parseToAliases_replaces_the_minimally_qualified_emoji_by_one_of_their_aliases() {
+        val text = "⛑️ emoji ⛑️"
+        val result = EmojiParser.parseToAliases(text)
+        assertEquals(
+            ":rescue_worker_helmet: emoji :rescue_worker_helmet:",
+            result
+        )
+    }
+
+    @Test
+    fun parseToAliases_replaces_the_multiple_vs16_emoji_by_one_of_their_aliases() {
+        val text = "👁️‍🗨️ emoji 👁️‍🗨️"
+        val result = EmojiParser.parseToAliases(text)
+        assertEquals(
+            ":eye_speech_bubble: emoji :eye_speech_bubble:",
+            result
+        )
+    }
 }

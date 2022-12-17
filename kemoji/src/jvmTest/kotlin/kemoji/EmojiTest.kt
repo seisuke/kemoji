@@ -3,6 +3,7 @@ package kemoji
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments
 import org.junit.jupiter.params.provider.MethodSource
+import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 
 
@@ -15,6 +16,22 @@ class EmojiTest {
             EmojiManager.getByUnicode(emoji),
             "Asserting for emoji: $emoji $description"
         )
+    }
+
+    @ParameterizedTest(name = "{0} {1}")
+    @MethodSource("emojis")
+    fun emojisAliasTest(unicode: String, description: String) {
+        val emoji = EmojiManager.getByUnicode(unicode)!!
+        val alias = EmojiParser.emojiToAlias(emoji, null)
+
+        val text = " $unicode "
+        val result = EmojiParser.parseToAliases(text)
+        if (!result.contains("type_")) {
+            assertEquals(
+                " $alias ",
+                result
+            )
+        }
     }
 
     private object EmojiTestReader {
