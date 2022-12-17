@@ -21,7 +21,7 @@ class EmojiParser {
             return parseFromUnicode(input, emojiTransformer)
         }
 
-        fun emojiToAlias(
+        internal fun emojiToAlias(
             emoji: Emoji,
             fitzpatrickList: List<Fitzpatrick>,
             fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE

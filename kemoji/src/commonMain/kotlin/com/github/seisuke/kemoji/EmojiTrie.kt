@@ -50,7 +50,7 @@ class EmojiTrie(
                 // this node can't indexCheck.
                 return EmojiNode()
             }
-            matchFitzpatrick(head, pattern) -> searchNode(
+            matchFitzpatrick(pattern) -> searchNode(
                 node,
                 pattern.drop(2),
                 indexCheck,
@@ -80,7 +80,7 @@ class EmojiTrie(
         }
     }
 
-    private fun matchFitzpatrick(head: Char, pattern: String): Boolean =
+    private fun matchFitzpatrick(pattern: String): Boolean =
         pattern.length >= 2 && Fitzpatrick.fitzpatrickRegex.matches(pattern.substring(0, 2))
 
     private fun EmojiNode.indexCheck(

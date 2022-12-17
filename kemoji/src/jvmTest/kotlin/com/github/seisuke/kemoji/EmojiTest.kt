@@ -11,7 +11,7 @@ class EmojiTest {
 
     @ParameterizedTest(name = "{0} {1}")
     @MethodSource("emojis")
-    fun emojisGetByUnicodeTest(emoji: String, description: String) {
+    fun emojisGetByUnicode(emoji: String, description: String) {
         assertNotNull(
             EmojiManager.getByUnicode(emoji),
             "Asserting for emoji: $emoji $description"
@@ -20,7 +20,7 @@ class EmojiTest {
 
     @ParameterizedTest(name = "{0} {1}")
     @MethodSource("emojis")
-    fun emojisAliasTest(unicode: String, @Suppress("UNUSED_PARAMETER")description: String) {
+    fun emojisAlias(unicode: String, @Suppress("UNUSED_PARAMETER")description: String) {
         val emoji = EmojiManager.getByUnicode(unicode)!!
         val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
             unicode
