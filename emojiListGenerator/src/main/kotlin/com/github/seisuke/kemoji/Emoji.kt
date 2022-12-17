@@ -1,3 +1,5 @@
+package com.github.seisuke.kemoji
+
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -27,8 +29,8 @@ data class Emoji(
 @Serializable(with = OperatingModeSafeSerializer::class)
 sealed class UnicodeVersion {
     fun toPoetString(): String = when(this) {
-        is Empty -> "UnicodeVersion.Empty"
-        is Version -> "UnicodeVersion.Version(${version}f)"
+        is Empty -> "com.github.seisuke.kemoji.UnicodeVersion.Empty"
+        is Version -> "com.github.seisuke.kemoji.UnicodeVersion.Version(${version}f)"
     }
 
     object Empty : UnicodeVersion()

@@ -1,7 +1,7 @@
-package kemoji
+package com.github.seisuke.kemoji
 
-import kemoji.EmojiManager.getByUnicode
-import kemoji.EmojiManager.isEmoji
+import com.github.seisuke.kemoji.EmojiManager.getByUnicode
+import com.github.seisuke.kemoji.EmojiManager.isEmoji
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

@@ -3,8 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.21"
 }
 
-group = "seisuke"
-version = "1.0-SNAPSHOT"
+group = "com.github.seisuke"
+version = "0.1"
 
 dependencies {
     implementation("com.squareup:kotlinpoet:1.12.0")

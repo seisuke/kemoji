@@ -1,4 +1,4 @@
-package kemoji
+package com.github.seisuke.kemoji
 
 data class Emoji(
     val emoji: String,

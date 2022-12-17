@@ -1,4 +1,4 @@
-package kemoji
+package com.github.seisuke.kemoji
 
 class EmojiParser {
 

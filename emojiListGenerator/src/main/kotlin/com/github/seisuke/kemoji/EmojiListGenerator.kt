@@ -1,3 +1,5 @@
+package com.github.seisuke.kemoji
+
 import com.squareup.kotlinpoet.ClassName
 import com.squareup.kotlinpoet.CodeBlock
 import com.squareup.kotlinpoet.FileSpec
@@ -14,11 +16,11 @@ import kotlinx.serialization.json.Json
 import kotlin.io.path.Path
 
 object EmojiListGenerator {
-    private const val JSON_FILE_NAME = "emoji.json"
-    private const val PACKAGE_NAME = "kemoji"
+    private const val JSON_FILE_NAME = "/emoji.json"
+    private const val PACKAGE_NAME = "com.github.seisuke.kemoji"
     private const val CLASS_NAME = "Emoji"
-    private const val PROPERTY_NAME = "emojis"
     private const val OBJECT_NAME = "EmojiList"
+    private const val PROPERTY_NAME = "emojis"
     private val format = Json { isLenient = true }
 
     fun fileLoader(): List<Emoji> {
@@ -45,7 +47,8 @@ object EmojiListGenerator {
             .addType(emojiListObjectSpec)
             .indent("    ")
             .build()
-        kotlinFile.writeTo(Path("../$PACKAGE_NAME/src/commonMain/kotlin"))
+
+        kotlinFile.writeTo(Path("../kemoji/src/commonMain/kotlin/"))
     }
 
     private fun createFunSpecs(listEmojiTypeName: ParameterizedTypeName): List<FunSpec> {
