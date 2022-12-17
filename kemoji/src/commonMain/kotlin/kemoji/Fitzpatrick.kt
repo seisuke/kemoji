@@ -30,6 +30,9 @@ enum class Fitzpatrick(val unicode: String) {
     TYPE_6("\uD83C\uDFFF");
 
     companion object {
+        const val FITZPATRICK_FIRST_HALF: Char = '\uD83C'
+        val fitzpatrickRegex = Regex("[\uD83C\uDFFB-\uD83C\uDFFF]")
+
         fun fitzpatrickFromUnicode(unicode: String): Fitzpatrick? {
             return values().find { it.unicode == unicode }
         }

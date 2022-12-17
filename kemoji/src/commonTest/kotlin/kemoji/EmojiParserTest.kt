@@ -46,4 +46,14 @@ class EmojiParserTest {
             result
         )
     }
+
+    @Test
+    fun parseToAliases_replaces_the_multiple_fitzpatrick_emoji_by_one_of_their_aliases() {
+        val text = "🫱🏻‍🫲🏼 emoji 🫱🏿‍🫲🏻"
+        val result = EmojiParser.parseToAliases(text)
+        assertEquals(
+            ":handshake|type_1_2|type_3: emoji :handshake|type_6|type_1_2:",
+            result
+        )
+    }
 }
