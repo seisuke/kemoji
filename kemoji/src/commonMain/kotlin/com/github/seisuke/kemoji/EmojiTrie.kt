@@ -1,4 +1,4 @@
-package kemoji
+package com.github.seisuke.kemoji
 
 class EmojiTrie(
     val emojis: List<Emoji>
@@ -46,7 +46,8 @@ class EmojiTrie(
         }
         return when {
             pattern.length == 1 && head == Fitzpatrick.FITZPATRICK_FIRST_HALF -> {
-                //FIXME For return Matches.POSSIBLY in {@link EmojiTrie#isEmoji()}, this node can't indexCheck.
+                //FIXME For return Matches.POSSIBLY in {@link com.github.seisuke.kemoji.EmojiTrie#isEmoji()},
+                // this node can't indexCheck.
                 return EmojiNode()
             }
             matchFitzpatrick(head, pattern) -> searchNode(

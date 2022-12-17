@@ -1,3 +1,5 @@
+package com.github.seisuke.kemoji
+
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

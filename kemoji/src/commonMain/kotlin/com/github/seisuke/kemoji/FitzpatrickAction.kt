@@ -1,8 +1,7 @@
-package kemoji
+package com.github.seisuke.kemoji
 
 /**
- * Enum used to indicate what should be done when a Fitzpatrick modifier is
- * found.
+ * Enum used to indicate what should be done when a Fitzpatrick modifier is found.
  */
 enum class FitzpatrickAction {
     /**

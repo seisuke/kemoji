@@ -1,14 +1,16 @@
+package com.github.seisuke.kemoji
+
 object EmojiTestReader {
 
-    private val comment_regexp = Regex("^[#\\s]")
-    private val skip_status_regexp = Regex("(unqualified|component)")
+    private val commentRegexp = Regex("^[#\\s]")
+    private val skipStatusRegexp = Regex("(unqualified|component)")
 
     fun loadEmojiTest(): List<EmojiTest> {
-        val stream = this::class.java.getResourceAsStream("unicode-emoji-test.txt")
+        val stream = this::class.java.getResourceAsStream("/unicode-emoji-test.txt")
         val emojiTests: MutableList<EmojiTest> = mutableListOf()
         stream.bufferedReader().forEachLine { line ->
-            if (line.isNotBlank() && !comment_regexp.containsMatchIn(line)) {
-                if (!skip_status_regexp.containsMatchIn(line)) {
+            if (line.isNotBlank() && !commentRegexp.containsMatchIn(line)) {
+                if (!skipStatusRegexp.containsMatchIn(line)) {
                     val splittedLine = line.split(";")
                     val unicode = splittedLine[0].trim()
                     val description = splittedLine[1].split(Regex("E\\d+\\.\\d+")).last().trim()

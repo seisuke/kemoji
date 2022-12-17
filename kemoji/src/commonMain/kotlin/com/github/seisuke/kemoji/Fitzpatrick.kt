@@ -1,4 +1,4 @@
-package kemoji
+package com.github.seisuke.kemoji
 
 /**
  * Enum that represents the Fitzpatrick modifiers supported by the emojis.
