@@ -29,35 +29,49 @@ class EmojiTrie(
         }
     }
 
-    fun getEmoji(unicode: String): Emoji? = searchNode(root, unicode)?.emoji
+    fun getEmoji(unicode: String): Emoji? = searchNode(root, unicode, true)?.emoji
 
     private tailrec fun searchNode(
         node: EmojiNode,
         pattern: String,
+        indexCheck: Boolean = false,
         depth: Int = 0,
         fitzpatrickIndex: List<Int> = emptyList(),
         vs16Index: List<Int> = emptyList(),
     ): EmojiNode? {
-        val head = pattern.firstOrNull() ?: return node.indexCheck(fitzpatrickIndex, vs16Index)
+        val head = pattern.firstOrNull() ?: return if (indexCheck) {
+            node.indexCheck(fitzpatrickIndex, vs16Index)
+        } else {
+            node
+        }
         return if (pattern.length >= 2 && fitzpatrickRegex.matches(pattern.substring(0, 2))) {
             searchNode(
                 node,
                 pattern.drop(2),
+                indexCheck,
                 depth + 2,
                 fitzpatrickIndex + listOf(depth),
-                vs16Index
+                vs16Index,
             )
         } else if (head == VARIATION_SELECTOR_16) {
             searchNode(
                 node,
                 pattern.drop(1),
+                indexCheck,
                 depth + 1,
                 fitzpatrickIndex,
-                vs16Index + listOf(depth)
+                vs16Index + listOf(depth),
             )
         } else {
             val child = node.children[head] ?: return null
-            searchNode(child, pattern.drop(1), depth + 1, fitzpatrickIndex, vs16Index)
+            searchNode(
+                child,
+                pattern.drop(1),
+                indexCheck,
+                depth + 1,
+                fitzpatrickIndex,
+                vs16Index,
+            )
         }
     }
 

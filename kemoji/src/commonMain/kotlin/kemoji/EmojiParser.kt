@@ -6,9 +6,9 @@ class EmojiParser {
         val emoji: Emoji,
         val fitzpatrick: Fitzpatrick?,
         val startIndex: Int,
+        val endIndex: Int,
     ) {
-        val endIndex = startIndex + emoji.emoji.length
-        val fitzpatrickEndIndex = endIndex + if (fitzpatrick != null) {
+        val fitzpatrickEndIndex = endIndex + if (fitzpatrick != null) { //TODO fix for multiple fitzpatrick
             2
         } else {
             0
@@ -22,80 +22,79 @@ class EmojiParser {
             fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE
         ): String {
             val emojiTransformer: (UnicodeCandidate) -> String = { uc ->
-                when (fitzpatrickAction) {
-                    FitzpatrickAction.PARSE -> if (uc.fitzpatrick != null) {
-                        ":${uc.emoji.aliases[0]}|${uc.fitzpatrick.name.lowercase()}:"
-                    } else {
-                        ":${uc.emoji.aliases[0]}:"
-                    }
-                    FitzpatrickAction.REMOVE -> ":${uc.emoji.aliases[0]}:"
-                    FitzpatrickAction.IGNORE ->
-                        ":${uc.emoji.aliases[0]}:${uc.fitzpatrick?.unicode ?: ""}"
-                }
+                emojiToAlias(uc.emoji, uc.fitzpatrick, fitzpatrickAction)
             }
             return parseFromUnicode(input, emojiTransformer)
+        }
+
+        fun emojiToAlias(
+            emoji: Emoji,
+            fitzpatrick: Fitzpatrick?,
+            fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE
+        ): String = when (fitzpatrickAction) {
+            FitzpatrickAction.PARSE -> if (fitzpatrick != null) {
+                ":${emoji.aliases[0]}|${fitzpatrick.name.lowercase()}:"
+            } else {
+                ":${emoji.aliases[0]}:"
+            }
+            FitzpatrickAction.REMOVE -> ":${emoji.aliases[0]}:"
+            FitzpatrickAction.IGNORE ->
+                ":${emoji.aliases[0]}:${fitzpatrick?.unicode ?: ""}"
         }
 
         private fun parseFromUnicode(
             input: String,
             transformer: (UnicodeCandidate) -> String
         ): String {
-            var prev = 0
             val sb = StringBuilder(input.length)
-            val replacements: List<UnicodeCandidate> = getUnicodeCandidates(input)
-            for (candidate in replacements) {
-                sb.append(input, prev, candidate.startIndex)
+            val lastIndex = getUnicodeCandidates(input).fold(0) { acc, candidate ->
+                sb.append(input, acc, candidate.startIndex)
                 sb.append(transformer(candidate))
-                prev = candidate.fitzpatrickEndIndex
+                candidate.fitzpatrickEndIndex
             }
-            return sb.append(input.substring(prev)).toString()
+            return sb.append(input.substring(lastIndex)).toString()
         }
 
-        private fun getUnicodeCandidates(input: String): List<UnicodeCandidate> {
-            val candidateList = mutableListOf<UnicodeCandidate>()
-            var i = 0
-            var nextCan = getNextUnicodeCandidate(input.toCharArray(), i)
-            while (nextCan != null) {
-                candidateList.add(nextCan)
-                i = nextCan.fitzpatrickEndIndex
-                nextCan = getNextUnicodeCandidate(input.toCharArray(), i)
-            }
-            return candidateList
-        }
-
-        private fun getNextUnicodeCandidate(chars: CharArray, start: Int): UnicodeCandidate? {
-            for (i in start until chars.size) {
-                val emojiEnd: Int = getEmojiEndPos(chars, i)
-                if (emojiEnd != -1) {
-                    val emoji = EmojiManager.getByUnicode(
-                        chars.concatToString(i, i + (emojiEnd - i))
-                    ) ?: return null
-                    val fitzpatrick = if (emojiEnd + 2 <= chars.size) {
-                        val unicode = chars.concatToString(emojiEnd, emojiEnd + 2)
-                        Fitzpatrick.fitzpatrickFromUnicode(unicode)
-                    } else {
-                        null
-                    }
-                    return UnicodeCandidate(
-                        emoji,
-                        fitzpatrick,
-                        i
-                    )
+        private fun getUnicodeCandidates(text: String): Sequence<UnicodeCandidate> {
+            return generateSequence (
+                seedFunction = { getNextUnicodeCandidate(text, 0) },
+                nextFunction = { prev ->
+                    getNextUnicodeCandidate(text, prev.fitzpatrickEndIndex)
                 }
-            }
-            return null
+            )
         }
 
-        private fun getEmojiEndPos(text: CharArray, startPos: Int): Int {
-            var best = -1
-            for (j in startPos + 1..text.size) {
-                val status = EmojiManager.isEmoji(text.concatToString(), startPos, j)
+        private fun getNextUnicodeCandidate(text: String, startPos: Int): UnicodeCandidate? {
+            val (index, endPos) = (startPos until text.length).asSequence().map { index ->
+                index to getEmojiEndPos(text, index)
+            }.firstOrNull { (_, endPos) ->
+                endPos != -1
+            } ?: return null
+
+            val emoji = EmojiManager.getByUnicode(
+                text.substring(index, endPos)
+            ) ?: return null
+            val fitzpatrick = if (endPos + 2 <= text.length) { //TODO fix for multiple fitzpatrick
+                val unicode = text.substring(endPos, endPos + 2)
+                Fitzpatrick.fitzpatrickFromUnicode(unicode)
+            } else {
+                null
+            }
+            return UnicodeCandidate(
+                emoji,
+                fitzpatrick,
+                index,
+                endPos,
+            )
+        }
+
+        private fun getEmojiEndPos(text: String, startPos: Int): Int {
+            val best = (startPos + 1..text.length).fold(-1) { acc, i ->
+                val status = EmojiManager.isEmoji(text, startPos, i)
                 when (status) {
-                    EmojiTrie.Matches.EXACTLY -> {
-                        best = j
-                    }
-                    EmojiTrie.Matches.IMPOSSIBLE -> return best
-                    else -> Unit
+                    EmojiTrie.Matches.EXACTLY,
+                    EmojiTrie.Matches.POSSIBLY -> i
+                    EmojiTrie.Matches.IMPOSSIBLE -> return acc
                 }
             }
             return best
