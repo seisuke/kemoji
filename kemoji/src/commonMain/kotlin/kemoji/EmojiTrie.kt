@@ -44,8 +44,12 @@ class EmojiTrie(
         } else {
             node
         }
-        return if (pattern.length >= 2 && fitzpatrickRegex.matches(pattern.substring(0, 2))) {
-            searchNode(
+        return when {
+            pattern.length == 1 && head == Fitzpatrick.FITZPATRICK_FIRST_HALF -> {
+                //FIXME For return Matches.POSSIBLY in {@link EmojiTrie#isEmoji()}, this node can't indexCheck.
+                return EmojiNode()
+            }
+            matchFitzpatrick(head, pattern) -> searchNode(
                 node,
                 pattern.drop(2),
                 indexCheck,
@@ -53,8 +57,7 @@ class EmojiTrie(
                 fitzpatrickIndex + listOf(depth),
                 vs16Index,
             )
-        } else if (head == VARIATION_SELECTOR_16) {
-            searchNode(
+            head == VARIATION_SELECTOR_16 -> searchNode(
                 node,
                 pattern.drop(1),
                 indexCheck,
@@ -62,18 +65,22 @@ class EmojiTrie(
                 fitzpatrickIndex,
                 vs16Index + listOf(depth),
             )
-        } else {
-            val child = node.children[head] ?: return null
-            searchNode(
-                child,
-                pattern.drop(1),
-                indexCheck,
-                depth + 1,
-                fitzpatrickIndex,
-                vs16Index,
-            )
+            else -> {
+                val child = node.children[head] ?: return null
+                searchNode(
+                    child,
+                    pattern.drop(1),
+                    indexCheck,
+                    depth + 1,
+                    fitzpatrickIndex,
+                    vs16Index,
+                )
+            }
         }
     }
+
+    private fun matchFitzpatrick(head: Char, pattern: String): Boolean =
+        pattern.length >= 2 && Fitzpatrick.fitzpatrickRegex.matches(pattern.substring(0, 2))
 
     private fun EmojiNode.indexCheck(
         fitzpatrickIndex: List<Int>,
@@ -133,7 +140,6 @@ class EmojiTrie(
 
     companion object {
         val VARIATION_SELECTOR_16 = Char(65039)
-        val fitzpatrickRegex = Regex("[\uD83C\uDFFB-\uD83C\uDFFF]")
     }
 }
 

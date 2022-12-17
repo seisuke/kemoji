@@ -4,16 +4,10 @@ class EmojiParser {
 
     data class UnicodeCandidate(
         val emoji: Emoji,
-        val fitzpatrick: Fitzpatrick?,
         val startIndex: Int,
         val endIndex: Int,
-    ) {
-        val fitzpatrickEndIndex = endIndex + if (fitzpatrick != null) { //TODO fix for multiple fitzpatrick
-            2
-        } else {
-            0
-        }
-    }
+        val fitzpatrickList: List<Fitzpatrick> = emptyList(),
+    )
 
     companion object {
 
@@ -22,24 +16,31 @@ class EmojiParser {
             fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE
         ): String {
             val emojiTransformer: (UnicodeCandidate) -> String = { uc ->
-                emojiToAlias(uc.emoji, uc.fitzpatrick, fitzpatrickAction)
+                emojiToAlias(uc.emoji, uc.fitzpatrickList, fitzpatrickAction)
             }
             return parseFromUnicode(input, emojiTransformer)
         }
 
         fun emojiToAlias(
             emoji: Emoji,
-            fitzpatrick: Fitzpatrick?,
+            fitzpatrickList: List<Fitzpatrick>,
             fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE
         ): String = when (fitzpatrickAction) {
-            FitzpatrickAction.PARSE -> if (fitzpatrick != null) {
-                ":${emoji.aliases[0]}|${fitzpatrick.name.lowercase()}:"
-            } else {
-                ":${emoji.aliases[0]}:"
+            FitzpatrickAction.PARSE -> {
+                val fitzpatrickLabel = if (fitzpatrickList.isEmpty()) {
+                    ""
+                } else {
+                    fitzpatrickList.joinToString("|", "|") {
+                        it.name.lowercase()
+                    }
+                }
+                ":${emoji.aliases[0]}$fitzpatrickLabel:"
             }
             FitzpatrickAction.REMOVE -> ":${emoji.aliases[0]}:"
-            FitzpatrickAction.IGNORE ->
-                ":${emoji.aliases[0]}:${fitzpatrick?.unicode ?: ""}"
+            FitzpatrickAction.IGNORE -> {
+                val unicodes = fitzpatrickList.joinToString("") { it.unicode }
+                ":${emoji.aliases[0]}:${unicodes}"
+            }
         }
 
         private fun parseFromUnicode(
@@ -50,7 +51,7 @@ class EmojiParser {
             val lastIndex = getUnicodeCandidates(input).fold(0) { acc, candidate ->
                 sb.append(input, acc, candidate.startIndex)
                 sb.append(transformer(candidate))
-                candidate.fitzpatrickEndIndex
+                candidate.endIndex
             }
             return sb.append(input.substring(lastIndex)).toString()
         }
@@ -59,7 +60,7 @@ class EmojiParser {
             return generateSequence (
                 seedFunction = { getNextUnicodeCandidate(text, 0) },
                 nextFunction = { prev ->
-                    getNextUnicodeCandidate(text, prev.fitzpatrickEndIndex)
+                    getNextUnicodeCandidate(text, prev.endIndex)
                 }
             )
         }
@@ -74,17 +75,18 @@ class EmojiParser {
             val emoji = EmojiManager.getByUnicode(
                 text.substring(index, endPos)
             ) ?: return null
-            val fitzpatrick = if (endPos + 2 <= text.length) { //TODO fix for multiple fitzpatrick
-                val unicode = text.substring(endPos, endPos + 2)
-                Fitzpatrick.fitzpatrickFromUnicode(unicode)
-            } else {
-                null
-            }
+
+            val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
+                text.substring(index, endPos)
+            ).mapNotNull {result ->
+                Fitzpatrick.fitzpatrickFromUnicode(result.value)
+            }.toList()
+
             return UnicodeCandidate(
                 emoji,
-                fitzpatrick,
                 index,
                 endPos,
+                fitzpatrickList,
             )
         }
 

@@ -11,7 +11,7 @@ class EmojiTest {
 
     @ParameterizedTest(name = "{0} {1}")
     @MethodSource("emojis")
-    fun emojisTest(emoji: String, description: String) {
+    fun emojisGetByUnicodeTest(emoji: String, description: String) {
         assertNotNull(
             EmojiManager.getByUnicode(emoji),
             "Asserting for emoji: $emoji $description"
@@ -20,18 +20,17 @@ class EmojiTest {
 
     @ParameterizedTest(name = "{0} {1}")
     @MethodSource("emojis")
-    fun emojisAliasTest(unicode: String, description: String) {
+    fun emojisAliasTest(unicode: String, @Suppress("UNUSED_PARAMETER")description: String) {
         val emoji = EmojiManager.getByUnicode(unicode)!!
-        val alias = EmojiParser.emojiToAlias(emoji, null)
-
+        val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
+            unicode
+        ).mapNotNull {result ->
+            Fitzpatrick.fitzpatrickFromUnicode(result.value)
+        }.toList()
+        val alias = EmojiParser.emojiToAlias(emoji, fitzpatrickList)
         val text = " $unicode "
         val result = EmojiParser.parseToAliases(text)
-        if (!result.contains("type_")) {
-            assertEquals(
-                " $alias ",
-                result
-            )
-        }
+        assertEquals(" $alias ", result)
     }
 
     private object EmojiTestReader {
