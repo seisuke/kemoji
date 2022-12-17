@@ -20,13 +20,15 @@ However, emoji.json doesn't contain some necessary emojis, so **kemoji** adds th
 
 [gemoji/issues/248](https://github.com/github/gemoji/issues/248)
 
-### Gradle
+### Gradle 
+
+I'v never upload jar. 
 
 ```gradle
 //gradle kotlin DSL
-implementation("com.github.seisuke:kemoji:0.1.0") //for common
-implementation("com.github.seisuke:kemoji-jvm:0.1.0") //for JVM
-implementation("com.github.seisuke:kemoji-js:0.1.0") //for Kotlin/JS
+implementation("com.github.seisuke:kemoji:x.x.x") //for common
+implementation("com.github.seisuke:kemoji-jvm:x.x.x") //for JVM
+implementation("com.github.seisuke:kemoji-js:x.x.x") //for Kotlin/JS
 ```
 ## How to use it?
 
