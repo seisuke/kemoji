@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "io.github.seisuke"
-version = "0.1.0"
+version = "0.2.0"
 
 val javadocJar= task<Jar>("dokkaJar") {
     group = JavaBasePlugin.DOCUMENTATION_GROUP

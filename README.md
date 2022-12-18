@@ -24,9 +24,9 @@ However, emoji.json doesn't contain some necessary emojis, so **kemoji** adds th
 
 build.gradle.kts
 ```gradle
-implementation("io.github.seisuke:kemoji:0.1.0") //for common
-implementation("io.github.seisuke:kemoji-jvm:0.1.0") //for JVM
-implementation("io.github.seisuke:kemoji-js:0.1.0") //for Kotlin/JS
+implementation("io.github.seisuke:kemoji:0.2.0") //for common
+implementation("io.github.seisuke:kemoji-jvm:0.2.0") //for JVM
+implementation("io.github.seisuke:kemoji-js:0.2.0") //for Kotlin/JS
 ```
 ## How to use it?
 
