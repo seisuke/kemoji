@@ -1,4 +1,4 @@
-package io.github.seisuke.kemoji
+package io.github.seisuke.emojilistgenerator
 
 import com.squareup.kotlinpoet.ClassName
 import com.squareup.kotlinpoet.CodeBlock
@@ -13,6 +13,7 @@ import com.squareup.kotlinpoet.asClassName
 import com.squareup.kotlinpoet.buildCodeBlock
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
+import io.github.seisuke.kemoji.Generated
 import kotlin.io.path.Path
 
 object EmojiListGenerator {
@@ -36,6 +37,7 @@ object EmojiListGenerator {
         val propertySpec = createPropertySpec(funSpecs, listEmojiTypeName)
         val emojiListObjectSpec = TypeSpec.objectBuilder(OBJECT_NAME)
             .addProperty(propertySpec)
+            .addAnnotation(Generated::class)
             .apply {
                 funSpecs.forEach {
                     addFunction(it)

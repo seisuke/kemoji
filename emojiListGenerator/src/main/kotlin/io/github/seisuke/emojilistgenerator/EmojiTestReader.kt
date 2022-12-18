@@ -1,4 +1,4 @@
-package io.github.seisuke.kemoji
+package io.github.seisuke.emojilistgenerator
 
 object EmojiTestReader {
 

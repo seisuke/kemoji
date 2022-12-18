@@ -2,8 +2,9 @@ package io.github.seisuke.kemoji
 
 import kotlin.collections.List
 
-public object EmojiList {
-    public val emojis: List<Emoji> = function1() + function2() + function3() + function4()
+@Generated
+object EmojiList {
+    val emojis: List<Emoji> = function1() + function2() + function3() + function4()
 
     private fun function1(): List<Emoji> = listOf(
         Emoji(

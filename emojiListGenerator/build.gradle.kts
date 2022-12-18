@@ -9,6 +9,7 @@ version = "0.1.0"
 dependencies {
     implementation("com.squareup:kotlinpoet:1.12.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
+    implementation(project(":kemoji"))
     testImplementation(kotlin("test"))
 }
 

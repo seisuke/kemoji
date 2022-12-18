@@ -1,5 +1,7 @@
 package io.github.seisuke.kemoji
 
+import io.github.seisuke.emojilistgenerator.EmojiListGenerator
+import io.github.seisuke.emojilistgenerator.EmojiTestReader
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
