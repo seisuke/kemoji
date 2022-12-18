@@ -97,4 +97,22 @@ class EmojiParserTest {
             result
         )
     }
+
+    @Test
+    fun parseToSpanList_with_fitzpatrick_emoji() {
+        val text = "fitzpatrick 👈🏻 emoji ⛑️ helmet"
+        val result = EmojiParser.parseToSpanList(text) { uc ->
+            uc.emoji // emoji removed fitzpatrick, off course uc has fitzpatrick data.
+        }.joinToString("") {
+            when (it) {
+                is TextOrSpan.Text -> it.text
+                is TextOrSpan.Span -> it.box.emoji
+            }
+        }
+        assertEquals(
+            "fitzpatrick 👈 emoji ⛑ helmet", //removed fitzpatrick
+            result
+        )
+    }
+
 }

@@ -49,6 +49,33 @@ class EmojiParser {
             )
         }
 
+        fun getUnicodeCandidates(text: String): Sequence<UnicodeCandidate> {
+            return generateSequence (
+                seedFunction = { getNextUnicodeCandidate(text, 0) },
+                nextFunction = { prev ->
+                    getNextUnicodeCandidate(text, prev.endIndex)
+                }
+            )
+        }
+
+        inline fun <reified T> parseToSpanList(
+            input: String,
+            spanGenerator: (UnicodeCandidate) -> T
+        ): List<TextOrSpan<T>> {
+            val result = mutableListOf<TextOrSpan<T>>()
+            val lastIndex = getUnicodeCandidates(input).fold(0) { acc, candidate ->
+                val text = input.substring(acc, candidate.startIndex)
+                val span = spanGenerator(candidate)
+                result.add(TextOrSpan.Text(text))
+                result.add(TextOrSpan.Span(span))
+                candidate.endIndex
+            }
+            val text = input.substring(lastIndex)
+            result.add(TextOrSpan.Text(text))
+
+            return result
+        }
+
         private fun emojiToAlias(
             emoji: Emoji,
             fitzpatrickList: List<Fitzpatrick>,
@@ -84,15 +111,6 @@ class EmojiParser {
             return sb.append(input.substring(lastIndex)).toString()
         }
 
-        private fun getUnicodeCandidates(text: String): Sequence<UnicodeCandidate> {
-            return generateSequence (
-                seedFunction = { getNextUnicodeCandidate(text, 0) },
-                nextFunction = { prev ->
-                    getNextUnicodeCandidate(text, prev.endIndex)
-                }
-            )
-        }
-
         private fun getEmojiEndPos(text: String, startPos: Int): Int {
             val best = (startPos + 1..text.length).fold(-1) { acc, i ->
                 val status = EmojiManager.isEmoji(text, startPos, i)
@@ -105,4 +123,9 @@ class EmojiParser {
             return best
         }
     }
+}
+
+sealed class TextOrSpan<out T> {
+    data class Text(val text: String): TextOrSpan<Nothing>()
+    data class Span<T>(val box: T): TextOrSpan<T>()
 }
