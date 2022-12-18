@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization") version "1.7.21"
 }
 
-group = "com.github.seisuke"
+group = "io.github.seisuke"
 version = "0.1.0"
 
 dependencies {

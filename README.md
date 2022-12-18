@@ -26,9 +26,9 @@ I'v never upload jar.
 
 ```gradle
 //gradle kotlin DSL
-implementation("com.github.seisuke:kemoji:x.x.x") //for common
-implementation("com.github.seisuke:kemoji-jvm:x.x.x") //for JVM
-implementation("com.github.seisuke:kemoji-js:x.x.x") //for Kotlin/JS
+implementation("io.github.seisuke:kemoji:x.x.x") //for common
+implementation("io.github.seisuke:kemoji-jvm:x.x.x") //for JVM
+implementation("io.github.seisuke:kemoji-js:x.x.x") //for Kotlin/JS
 ```
 ## How to use it?
 

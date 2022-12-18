@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.seisuke"
+group = "io.github.seisuke"
 version = "0.1.0"
 
 kotlin {
