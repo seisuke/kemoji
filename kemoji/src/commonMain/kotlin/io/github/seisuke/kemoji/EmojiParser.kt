@@ -24,6 +24,31 @@ class EmojiParser {
 
         fun removeAllEmojis(input: String): String = parseFromUnicode(input) { "" }
 
+        fun getNextUnicodeCandidate(text: String, startPos: Int): UnicodeCandidate? {
+            val (index, endPos) = (startPos until text.length).asSequence().map { index ->
+                index to getEmojiEndPos(text, index)
+            }.firstOrNull { (_, endPos) ->
+                endPos != -1
+            } ?: return null
+
+            val emoji = EmojiManager.getByUnicode(
+                text.substring(index, endPos)
+            ) ?: return null
+
+            val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
+                text.substring(index, endPos)
+            ).mapNotNull {result ->
+                Fitzpatrick.fitzpatrickFromUnicode(result.value)
+            }.toList()
+
+            return UnicodeCandidate(
+                emoji,
+                index,
+                endPos,
+                fitzpatrickList,
+            )
+        }
+
         private fun emojiToAlias(
             emoji: Emoji,
             fitzpatrickList: List<Fitzpatrick>,
@@ -65,31 +90,6 @@ class EmojiParser {
                 nextFunction = { prev ->
                     getNextUnicodeCandidate(text, prev.endIndex)
                 }
-            )
-        }
-
-        private fun getNextUnicodeCandidate(text: String, startPos: Int): UnicodeCandidate? {
-            val (index, endPos) = (startPos until text.length).asSequence().map { index ->
-                index to getEmojiEndPos(text, index)
-            }.firstOrNull { (_, endPos) ->
-                endPos != -1
-            } ?: return null
-
-            val emoji = EmojiManager.getByUnicode(
-                text.substring(index, endPos)
-            ) ?: return null
-
-            val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
-                text.substring(index, endPos)
-            ).mapNotNull {result ->
-                Fitzpatrick.fitzpatrickFromUnicode(result.value)
-            }.toList()
-
-            return UnicodeCandidate(
-                emoji,
-                index,
-                endPos,
-                fitzpatrickList,
             )
         }
 

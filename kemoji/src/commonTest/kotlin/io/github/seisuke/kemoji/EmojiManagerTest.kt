@@ -1,9 +1,10 @@
 package io.github.seisuke.kemoji
 
-import io.github.seisuke.kemoji.EmojiManager.getByUnicode
 import io.github.seisuke.kemoji.EmojiManager.isEmoji
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 class EmojiManagerTest {
 
@@ -37,7 +38,7 @@ class EmojiManagerTest {
     @Test
     fun getByUnicode_returns_correct_emoji() {
         val wavingHand = "\uD83D\uDC4B"
-        val emoji = getByUnicode(wavingHand) ?: throw RuntimeException()
+        val emoji = EmojiManager.getByUnicode(wavingHand) ?: throw RuntimeException()
         assertEquals(wavingHand, emoji.emoji)
         assertEquals("waving hand", emoji.description)
     }
@@ -54,5 +55,54 @@ class EmojiManagerTest {
         val text = "👋🏻 test"
         val isEmoji = isEmoji(text, 0, 2)
         assertEquals(EmojiTrie.Matches.EXACTLY, isEmoji)
+    }
+
+    @Test
+    fun isEmoji_for_an_emoji_and_other_chars_returns_true() {
+        val text = "👋🏻"
+        val isEmoji = isEmoji(text)
+        assertTrue(isEmoji)
+    }
+
+    @Test
+    fun containsEmoji_returns_true() {
+        val text = "test 👋🏻 test"
+        val containsEmoji = EmojiManager.containsEmoji(text)
+        assertTrue(containsEmoji)
+    }
+
+    @Test
+    fun containsEmoji_returns_false() {
+        val text = "test test"
+        val containsEmoji = EmojiManager.containsEmoji(text)
+        assertFalse(containsEmoji)
+    }
+
+    @Test
+    fun containsEmoji_with_blank_text() {
+        val text = ""
+        val containsEmoji = EmojiManager.containsEmoji(text)
+        assertFalse(containsEmoji)
+    }
+
+    @Test
+    fun isOnlyEmoji_returns_true() {
+        val text = "👋🏻👋⛑️"
+        val containsEmoji = EmojiManager.isOnlyEmojis(text)
+        assertTrue(containsEmoji)
+    }
+
+    @Test
+    fun isOnlyEmoji_returns_false() {
+        val text = "👋\u200D"
+        val containsEmoji = EmojiManager.isOnlyEmojis(text)
+        assertFalse(containsEmoji)
+    }
+
+    @Test
+    fun isOnlyEmoji_with_blank_text() {
+        val text = ""
+        val containsEmoji = EmojiManager.isOnlyEmojis(text)
+        assertFalse(containsEmoji)
     }
 }

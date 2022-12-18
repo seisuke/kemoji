@@ -39,6 +39,8 @@ The `EmojiManager` provides several static methods to search through the emoji d
 - `isEmoji` checks if a string is an emoji
 - `getAllTags` returns the available tags
 - `getAll` returns all the emojis
+- `containsEmoji` checks if a string contains any emoji
+- `isOnlyEmojis` checks if a string is only emoji
 
 ### Emoji model
 
