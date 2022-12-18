@@ -22,8 +22,8 @@ However, emoji.json doesn't contain some necessary emojis, so **kemoji** adds th
 
 ### Gradle 
 
+build.gradle.kts
 ```gradle
-//gradle kotlin DSL
 implementation("io.github.seisuke:kemoji:0.1.0") //for common
 implementation("io.github.seisuke:kemoji-jvm:0.1.0") //for JVM
 implementation("io.github.seisuke:kemoji-js:0.1.0") //for Kotlin/JS
@@ -52,7 +52,7 @@ data class Emoji(
     val aliases: List<String>,          // returns a list of aliases for this emoji
     val tags: List<String>,             // returns a list of tags for this emoji
     val unicodeVersion: UnicodeVersion, // returns unicode version enum. this emoji is supported since this versin.
-    val iosVersion: Float,              // returns ios vesion value. this emoji is supported since this versin.
+    val iosVersion: Float,              // returns ios version value. this emoji is supported since this versin.
     val fitzpatrickIndex: List<Int>,    // returns a list of position of fitzpatrick codepoints.
     val vs16Index: List<Int>,           // returns a list of position of vs16 codepoints.
 )
@@ -64,18 +64,31 @@ An `EmojiList` holds all `Emoji`. It is generated from `EmojiGenerator#generateE
 
 ### EmojiParser
 
+#### To aliases
+
 To replace all the emoji's unicodes found in a string by their aliases, use `EmojiParser#parseToAliases(String)`.
 
 For example:
 
 ```kotlin
 val text = "An 😀awesome 😃string with a few 😉emojis!"
-EmojiParser.parseToAliases(text) // => "An :grinning:awesome :smiley:string with a few :wink:emojis!"
+EmojiParser.parseToAliases(text) 
+// => "An :grinning:awesome :smiley:string with a few :wink:emojis!"
+```
+#### Remove emojis
+
+You can easily remove emojis from a string.
+
+For example:
+
+```kotlin
+val text = "An 😀awesome 😃string with a few 😉emojis!";
+EmojiParser.removeAllEmojis(text) // => "An awesome string with a few emojis!"
 ```
 
 ## unicode-emoji-test.txt
-
-`EmojiTest#emojisGetByUnicodeTest` and `EmojiTest#emojisAlias` pass tests of 4441 pattern emoji in [unicode-emoji-test.txt](./emojiListGenerator/src/main/resources/unicode-emoji-test.txt) expects unqualified them. 
+Coverage rate is over 98%.
+`EmojiTest#emojisGetByUnicodeTest` and `EmojiTest#emojisAlias` pass tests of 4441 pattern emoji in [unicode-emoji-test.txt](./emojiListGenerator/src/main/resources/unicode-emoji-test.txt) expects unqualified them.
 
 ## Available Emojis
 
