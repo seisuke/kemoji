@@ -1,10 +1,17 @@
 plugins {
     kotlin("multiplatform") version "1.7.21"
     `maven-publish`
+    signing
+    id("org.jetbrains.dokka") version "1.7.20"
 }
 
 group = "io.github.seisuke"
 version = "0.1.0"
+
+val javadocJar= task<Jar>("dokkaJar") {
+    group = JavaBasePlugin.DOCUMENTATION_GROUP
+    archiveClassifier.set("javadoc")
+}
 
 kotlin {
     jvm {
@@ -42,47 +49,56 @@ kotlin {
 publishing {
     repositories {
         maven {
-            name = "kemoji"
-            url = uri("https://maven.pkg.github.com/seisuke/kemoji")
             credentials {
-                username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
+                val nexusUsername: String? by project
+                val nexusPassword: String? by project
+                username = nexusUsername
+                password = nexusPassword
             }
-        }
-    }
-    publications {
-        register<MavenPublication>("gpr") {
-            //from(components["kemoji"])
-            pom {
-                name.set("seisuke")
-                description.set("Kotlin Multiplatform Framework Emoji Support Library")
-                url.set("https://github.com/seisuke/kemoji")
 
-                organization {
-                    name.set("com.github.seisuke")
-                    url.set("https://github.com/seisuke")
+            val releasesRepoUrl = uri("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
+            val snapshotsRepoUrl = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+            url = if (version.toString().endsWith("SNAPSHOT")) snapshotsRepoUrl else releasesRepoUrl
+        }
+    }
+    publications.all {
+        if (this !is MavenPublication) {
+            return@all
+        }
+        artifact(javadocJar)
+        pom {
+            name.set("kemoji")
+            description.set("Kotlin Multiplatform Framework Emoji Support Library")
+            url.set("https://github.com/seisuke/kemoji")
+
+            organization {
+                name.set("io.github.seisuke")
+                url.set("https://github.com/seisuke")
+            }
+            licenses {
+                license {
+                    name.set("MIT")
+                    url.set("https://github.com/seiske/kemoji/blob/master/LICENSE")
                 }
-                licenses {
-                    license {
-                        name.set("MIT")
-                        url.set("https://github.com/seiske/kemoji/blob/master/LICENSE")
-                    }
-                }
-                issueManagement {
-                    system.set("Github")
-                    url.set("https://github.com/seisuke/kemoji/issues")
-                }
-                scm {
-                    url.set("https://github.com/seisuke/kemoji")
-                    connection.set("scm:git:git://github.com/seisuke/kemoji.git")
-                    developerConnection.set("https://github.com/seisuke/kemoji")
-                }
-                developers {
-                    developer {
-                        name.set("seisuke")
-                    }
+            }
+            issueManagement {
+                system.set("Github")
+                url.set("https://github.com/seisuke/kemoji/issues")
+            }
+            scm {
+                url.set("https://github.com/seisuke/kemoji")
+                connection.set("scm:git:git://github.com/seisuke/kemoji.git")
+                developerConnection.set("https://github.com/seisuke/kemoji")
+            }
+            developers {
+                developer {
+                    name.set("seisuke")
                 }
             }
         }
     }
+}
+
+signing {
+    sign(publishing.publications)
 }
