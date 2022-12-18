@@ -1,5 +1,6 @@
 package io.github.seisuke.kemoji
 
+
 class EmojiParser {
 
     data class UnicodeCandidate(
@@ -21,7 +22,9 @@ class EmojiParser {
             return parseFromUnicode(input, emojiTransformer)
         }
 
-        fun emojiToAlias(
+        fun removeAllEmojis(input: String): String = parseFromUnicode(input) { "" }
+
+        private fun emojiToAlias(
             emoji: Emoji,
             fitzpatrickList: List<Fitzpatrick>,
             fitzpatrickAction: FitzpatrickAction = FitzpatrickAction.PARSE

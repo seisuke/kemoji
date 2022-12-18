@@ -8,6 +8,18 @@ import kotlin.test.assertEquals
 class EmojiManagerTest {
 
     @Test
+    fun getAll() {
+        val allEmoji = EmojiManager.getAll()
+        assertEquals(1855, allEmoji.size)
+    }
+
+    @Test
+    fun getForAlas() {
+        val emoji = EmojiManager.getForAlias("wave")!!
+        assertEquals("👋", emoji.emoji)
+    }
+
+    @Test
     fun getForTag_with_unknown_tag_returns_null() {
         val emojis = EmojiManager.getForTag("jkahsgdfjksghfjkshf")
 

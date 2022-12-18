@@ -3,8 +3,9 @@ package io.github.seisuke.kemoji
 import kotlin.collections.List
 
 @Generated
-object EmojiList {
-    val emojis: List<Emoji> = function1() + function2() + function3() + function4()
+public object EmojiList {
+    public val emojis: List<Emoji> = function1() + function2() + function3() + function4() +
+            function5()
 
     private fun function1(): List<Emoji> = listOf(
         Emoji(
@@ -4407,6 +4408,9 @@ object EmojiList {
             fitzpatrickIndex = listOf(2),
             vs16Index = listOf(4),
         ),
+    )
+
+    private fun function2(): List<Emoji> = listOf(
         Emoji(
             emoji = "💇‍♀",
             description = "woman getting haircut",
@@ -5507,9 +5511,6 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = emptyList(),
         ),
-    )
-
-    private fun function2(): List<Emoji> = listOf(
         Emoji(
             emoji = "👨‍👩‍👦",
             description = "family: man, woman, boy",
@@ -8810,6 +8811,9 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = emptyList(),
         ),
+    )
+
+    private fun function3(): List<Emoji> = listOf(
         Emoji(
             emoji = "🍽",
             description = "fork and knife with plate",
@@ -11010,9 +11014,6 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = emptyList(),
         ),
-    )
-
-    private fun function3(): List<Emoji> = listOf(
         Emoji(
             emoji = "⛈",
             description = "cloud with lightning and rain",
@@ -13213,6 +13214,9 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = emptyList(),
         ),
+    )
+
+    private fun function4(): List<Emoji> = listOf(
         Emoji(
             emoji = "📀",
             description = "dvd",
@@ -16513,9 +16517,6 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = listOf(1),
         ),
-    )
-
-    private fun function4(): List<Emoji> = listOf(
         Emoji(
             emoji = "#⃣",
             description = "keycap: #",
@@ -17616,6 +17617,9 @@ object EmojiList {
             fitzpatrickIndex = emptyList(),
             vs16Index = emptyList(),
         ),
+    )
+
+    private fun function5(): List<Emoji> = listOf(
         Emoji(
             emoji = "🇦🇱",
             description = "flag: Albania",

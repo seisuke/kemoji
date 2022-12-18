@@ -58,7 +58,7 @@ object EmojiListGenerator {
         val emojiTestList = EmojiTestReader.loadEmojiTest()
         val emojiGroupList = EmojiTestReader.groupByRawUnicode(emojiTestList)
 
-        val functions = emojiList.chunked(500).mapIndexed { index, chunkedEmojiList ->
+        val functions = emojiList.chunked(400).mapIndexed { index, chunkedEmojiList ->
             FunSpec.builder("function${index + 1}")
                 .returns(listEmojiTypeName)
                 .addModifiers(KModifier.PRIVATE)

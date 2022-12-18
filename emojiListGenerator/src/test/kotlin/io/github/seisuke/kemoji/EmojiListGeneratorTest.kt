@@ -10,7 +10,7 @@ class EmojiListGeneratorTest {
     @Test
     fun emojiListTest() {
         val emojiList = EmojiListGenerator.fileLoader()
-        assertEquals(emojiList.size, 1855)
+        assertEquals(1855, emojiList.size)
     }
 
     @Test
@@ -26,6 +26,6 @@ class EmojiListGeneratorTest {
         //assertEquals(group["🖐"]!!.size, 6) // 🖐 is unique
 
         val group = groupList["🤚"]!!
-        assertEquals(group.size, 6)
+        assertEquals(6, group.size)
     }
 }

@@ -17,6 +17,17 @@ class EmojiParserTest {
     }
 
     @Test
+    fun parseToAliases_replaces_the_incomplete_emoji_by_one_of_their_aliases() {
+        val text = "incomplete \uD83E\uD83C\uDFFB\u200D\uDEF2\uD83C\uDFFC"
+        val result = EmojiParser.parseToAliases(text)
+
+        assertEquals(
+            "incomplete \uD83E\uD83C\uDFFB\u200D\uDEF2\uD83C\uDFFC",
+            result
+        )
+    }
+
+    @Test
     fun parseToAliases_replaces_the_fitzpatrick_emoji_by_one_of_their_aliases() {
         val text = "fitzpatrick 👋🏻 emoji"
         val result = EmojiParser.parseToAliases(text)
@@ -53,6 +64,36 @@ class EmojiParserTest {
         val result = EmojiParser.parseToAliases(text)
         assertEquals(
             ":handshake|type_1_2|type_3: emoji :handshake|type_6|type_1_2:",
+            result
+        )
+    }
+
+    @Test
+    fun parseToAliases_replaces_the_multiple_fitzpatrick_emoji_with_remove_option_by_one_of_their_aliases() {
+        val text = "🫱🏻‍🫲🏼 emoji 🫱🏿‍🫲🏻"
+        val result = EmojiParser.parseToAliases(text, FitzpatrickAction.REMOVE)
+        assertEquals(
+            ":handshake: emoji :handshake:",
+            result
+        )
+    }
+
+    @Test
+    fun parseToAliases_replaces_the_multiple_fitzpatrick_emoji_with_ignore_option_by_one_of_their_aliases() {
+        val text = "🫱🏻‍🫲🏼 emoji 🫱🏿‍🫲🏻"
+        val result = EmojiParser.parseToAliases(text, FitzpatrickAction.IGNORE)
+        assertEquals(
+            ":handshake:\uD83C\uDFFB\uD83C\uDFFC emoji :handshake:\uD83C\uDFFF\uD83C\uDFFB",
+            result
+        )
+    }
+
+    @Test
+    fun removeAllEmojis_removes_all_the_emojis_from_the_string() {
+        val text = "fitzpatrick 👋🏻 emoji ⛑️ helmet 👁️‍🗨️ eye_speech_bubble"
+        val result = EmojiParser.removeAllEmojis(text)
+        assertEquals(
+            "fitzpatrick  emoji  helmet  eye_speech_bubble",
             result
         )
     }

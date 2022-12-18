@@ -3,6 +3,7 @@ plugins {
     `maven-publish`
     signing
     id("org.jetbrains.dokka") version "1.7.20"
+    id("org.jetbrains.kotlinx.kover") version "0.6.1"
 }
 
 group = "io.github.seisuke"
@@ -95,6 +96,17 @@ publishing {
                     name.set("seisuke")
                 }
             }
+        }
+    }
+}
+
+kover {
+    filters {
+        classes {
+            excludes += listOf(
+                "**emojiListGenerator**",
+                "**EmojiList"
+            )
         }
     }
 }

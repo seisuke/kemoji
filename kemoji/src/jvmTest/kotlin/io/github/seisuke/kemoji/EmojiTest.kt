@@ -25,12 +25,15 @@ class EmojiTest {
         val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
             unicode
         ).mapNotNull {result ->
-            Fitzpatrick.fitzpatrickFromUnicode(result.value)
+            Fitzpatrick.fitzpatrickFromUnicode(result.value)?.name?.lowercase()
         }.toList()
-        val alias = EmojiParser.emojiToAlias(emoji, fitzpatrickList)
+            .takeIf { it.isNotEmpty() }
+            ?.joinToString("|", "|")
+            ?: ""
+
         val text = " $unicode "
         val result = EmojiParser.parseToAliases(text)
-        assertEquals(" $alias ", result)
+        assertEquals(" :${emoji.aliases.first()}$fitzpatrickList: ", result)
     }
 
     private object EmojiTestReader {
