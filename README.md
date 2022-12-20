@@ -89,7 +89,7 @@ EmojiParser.removeAllEmojis(text) // => "An awesome string with a few emojis!"
 ```
 
 ## unicode-emoji-test.txt
-Coverage rate is over 98%.
+Coverage rate is over 95%.
 `EmojiTest#emojisGetByUnicodeTest` and `EmojiTest#emojisAlias` pass tests of 4441 pattern emoji in [unicode-emoji-test.txt](./emojiListGenerator/src/main/resources/unicode-emoji-test.txt) expects unqualified them.
 
 ## Available Emojis
