@@ -16,9 +16,6 @@ object EmojiManager {
             { (_, emoji) -> emoji },
         )
     }
-    private val emojiTrie: EmojiTrie by lazy {
-        EmojiTrie(EmojiList.emojis)
-    }
 
     fun getAll(): List<Emoji> = EmojiList.emojis
 
@@ -26,13 +23,10 @@ object EmojiManager {
 
     fun getForTag(tag: String): List<Emoji> = emojiByTag[tag] ?: emptyList()
 
-    fun getByUnicode(unicode: String): Emoji? = emojiTrie.getEmoji(unicode)
+    fun getByUnicode(unicode: String): Emoji? = EmojiTrieStore.getEmoji(unicode)
 
     fun isEmoji(unicode: String): Boolean =
-        emojiTrie.isEmoji(unicode, 0, unicode.length) == EmojiTrie.Matches.EXACTLY
-
-    fun isEmoji(unicode: String, startPos: Int, endPos: Int): EmojiTrie.Matches =
-        emojiTrie.isEmoji(unicode, startPos, endPos)
+        (EmojiTrieStore.isEmoji(unicode) == EmojiTrie.Matches.EXACTLY)
 
     fun containsEmoji(text: String): Boolean {
         return EmojiParser.getNextUnicodeCandidate(text, 0) != null

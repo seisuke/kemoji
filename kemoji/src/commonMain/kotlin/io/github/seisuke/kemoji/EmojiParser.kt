@@ -22,15 +22,12 @@ object EmojiParser {
             endPos != -1
         } ?: return null
 
-        val emoji = EmojiManager.getByUnicode(
-            text.substring(index, endPos)
-        ) ?: return null
-
-        val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(
-            text.substring(index, endPos)
-        ).mapNotNull {result ->
-            Fitzpatrick.fitzpatrickFromUnicode(result.value)
-        }.toList()
+        val subString = text.substring(index, endPos)
+        val emoji = EmojiTrieStore.getEmoji(subString) ?: return null
+        val fitzpatrickList = Fitzpatrick.fitzpatrickRegex.findAll(subString)
+            .mapNotNull { result ->
+                Fitzpatrick.fitzpatrickFromUnicode(result.value)
+            }.toList()
 
         return UnicodeCandidate(
             emoji,
@@ -40,16 +37,7 @@ object EmojiParser {
         )
     }
 
-    fun getUnicodeCandidates(text: String): Sequence<UnicodeCandidate> {
-        return generateSequence (
-            seedFunction = { getNextUnicodeCandidate(text, 0) },
-            nextFunction = { prev ->
-                getNextUnicodeCandidate(text, prev.endIndex)
-            }
-        )
-    }
-
-    inline fun <reified T> parseToSpanList(
+    fun <T> parseToSpanList(
         input: String,
         spanGenerator: (UnicodeCandidate) -> T
     ): List<TextOrSpan<T>> {
@@ -89,22 +77,28 @@ object EmojiParser {
         }
     }
 
+    private fun getUnicodeCandidates(text: String): Sequence<UnicodeCandidate> {
+        return generateSequence (
+            seedFunction = { getNextUnicodeCandidate(text, 0) },
+            nextFunction = { prev ->
+                getNextUnicodeCandidate(text, prev.endIndex)
+            }
+        )
+    }
+
     private fun parseFromUnicode(
         input: String,
         transformer: (UnicodeCandidate) -> String
-    ): String {
-        val sb = StringBuilder(input.length)
-        val lastIndex = getUnicodeCandidates(input).fold(0) { acc, candidate ->
-            sb.append(input, acc, candidate.startIndex)
-            sb.append(transformer(candidate))
-            candidate.endIndex
+    ): String = parseToSpanList(input, transformer).joinToString ("") {
+        when (it) {
+            is TextOrSpan.Text -> it.text
+            is TextOrSpan.Span -> it.box
         }
-        return sb.append(input.substring(lastIndex)).toString()
     }
 
     private fun getEmojiEndPos(text: String, startPos: Int): Int {
         val best = (startPos + 1..text.length).fold(-1) { acc, i ->
-            val status = EmojiManager.isEmoji(text, startPos, i)
+            val status = EmojiTrieStore.isEmoji(text.substring(startPos, i))
             when (status) {
                 EmojiTrie.Matches.EXACTLY,
                 EmojiTrie.Matches.POSSIBLY -> i

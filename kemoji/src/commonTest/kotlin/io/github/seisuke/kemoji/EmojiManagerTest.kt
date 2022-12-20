@@ -44,20 +44,6 @@ class EmojiManagerTest {
     }
 
     @Test
-    fun isEmoji_with_startPos_for_an_emoji_and_other_chars_returns_exactly() {
-        val text = "😀 test"
-        val isEmoji = isEmoji(text, 0, 2)
-        assertEquals(EmojiTrie.Matches.EXACTLY, isEmoji)
-    }
-
-    @Test
-    fun isEmoji_with_startPos_for_an_fitzpatrick_emoji_and_other_chars_returns_exactly() {
-        val text = "👋🏻 test"
-        val isEmoji = isEmoji(text, 0, 2)
-        assertEquals(EmojiTrie.Matches.EXACTLY, isEmoji)
-    }
-
-    @Test
     fun isEmoji_for_an_emoji_and_other_chars_returns_true() {
         val text = "👋🏻"
         val isEmoji = isEmoji(text)

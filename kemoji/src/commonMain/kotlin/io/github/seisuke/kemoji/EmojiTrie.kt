@@ -13,13 +13,8 @@ class EmojiTrie(
         }
     }
 
-    fun isEmoji(unicode: String, start: Int, end: Int): Matches {
-        if (start < 0 || start > end || end > unicode.length) {
-            throw IndexOutOfBoundsException(
-                "start $start, end $end, length ${unicode.length}"
-            )
-        }
-        val node = searchNode(root, unicode.substring(start, end))
+    fun isEmoji(unicode: String): Matches {
+        val node = searchNode(root, unicode)
         return if (node == null) {
             Matches.IMPOSSIBLE
         } else if (node.emoji == null) {
@@ -46,7 +41,8 @@ class EmojiTrie(
         }
         return when {
             pattern.length == 1 && head == Fitzpatrick.FITZPATRICK_FIRST_HALF -> {
-                //FIXME For return Matches.POSSIBLY in {@link com.github.seisuke.kemoji.EmojiTrie#isEmoji()},
+                //FIXME For return Matches.POSSIBLY in
+                // {@link io.github.seisuke.kemoji.EmojiTrie#isEmoji(unicode: String)},
                 // this node can't indexCheck.
                 return EmojiNode()
             }
@@ -144,5 +140,14 @@ class EmojiTrie(
     }
 }
 
+internal object EmojiTrieStore {
+    private val emojiTrie: EmojiTrie by lazy {
+        EmojiTrie(EmojiList.emojis)
+    }
+
+    fun isEmoji(unicode: String): EmojiTrie.Matches = emojiTrie.isEmoji(unicode)
+
+    fun getEmoji(unicode: String): Emoji? = emojiTrie.getEmoji(unicode)
+}
 
 
