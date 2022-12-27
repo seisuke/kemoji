@@ -1,3 +1,5 @@
+[![MIT License](https://img.shields.io/github/license/seisuke/kemoji)]()
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.seisuke/kemoji?label=Maven%20Central)](https://search.maven.org/artifact/io.github.seisuke/kemoji)
 # kemoji
 
 🛟 Kotlin Multiplatform Framework Emoji Support Library 🛟
